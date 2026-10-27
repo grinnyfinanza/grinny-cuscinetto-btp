@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="388.8pt" height="486pt" viewBox="0 0 388.8 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T17:27:25.578507</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 388.8 486 
+L 388.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 82.8 421.2 
+L 313.2 421.2 
+L 313.2 111.6 
+L 82.8 111.6 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="79.8" y="387.384187" transform="rotate(-0 79.8 387.384187)">Bund 10 anni</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="79.8" y="309.634312" transform="rotate(-0 79.8 309.634312)">BTP 10 anni</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="79.8" y="231.884438" transform="rotate(-0 79.8 231.884438)">Bund 3 anni</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="79.8" y="154.134563" transform="rotate(-0 79.8 154.134563)">BTP 3 anni</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 82.8 407.127273 
+L 128.692683 407.127273 
+L 128.692683 358.922351 
+L 82.8 358.922351 
+z
+" clip-path="url(#p48e8b580dc)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 82.8 329.377398 
+L 143.678049 329.377398 
+L 143.678049 281.172476 
+L 82.8 281.172476 
+z
+" clip-path="url(#p48e8b580dc)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 82.8 251.627524 
+L 248.57561 251.627524 
+L 248.57561 203.422602 
+L 82.8 203.422602 
+z
+" clip-path="url(#p48e8b580dc)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 82.8 173.877649 
+L 270.117073 173.877649 
+L 270.117073 125.672727 
+L 82.8 125.672727 
+z
+" clip-path="url(#p48e8b580dc)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 82.8 421.2 
+L 82.8 111.6 
+" style="fill: none; stroke: #46585e; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="131.502439" y="386.298737" transform="rotate(-0 131.502439 386.298737)">49</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="146.487805" y="308.548863" transform="rotate(-0 146.487805 308.548863)">65</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="251.385366" y="230.798989" transform="rotate(-0 251.385366 230.798989)">177</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="272.926829" y="153.049114" transform="rotate(-0 272.926829 153.049114)">200</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(100.686172 27.602531)">I titoli a 3 anni reggono</text>
+   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(66.966406 51.674)">un rialzo dei tassi almeno triplo</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(94.630703 68.435923)">Di quanto può salire il rendimento in un anno</text>
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(97.920078 83.383394)">prima che chi compra il 30/09/2026 perda,</text>
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(103.048594 98.592856)">in punti base (100 = 1 punto percentuale)</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 7.5px; font-family: 'Inter'; fill: #6b7b80" transform="translate(57.6 460.301609)">Fonte: elaborazione Grinny Finanza su dati Banca</text>
+   <text style="font-size: 7.5px; font-family: 'Inter'; fill: #6b7b80" transform="translate(57.6 472.713596)">d'Italia e Bundesbank, estratti il 25/10/2026.</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 7.5px; font-family: 'Inter'; text-anchor: end; fill: #6b7b80" x="380.16" y="474.830918" transform="rotate(-0 380.16 474.830918)">Grinny Finanza</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p48e8b580dc">
+   <rect x="82.8" y="111.6" width="230.4" height="309.6"/>
+  </clipPath>
+ </defs>
+</svg>

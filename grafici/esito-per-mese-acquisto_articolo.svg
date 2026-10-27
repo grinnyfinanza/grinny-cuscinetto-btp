@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="525.6pt" height="331.2pt" viewBox="0 0 525.6 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-27T17:27:23.114920</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.2 
+L 525.6 331.2 
+L 525.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 39.6 259.2 
+L 482.4 259.2 
+L 482.4 66.24 
+L 39.6 66.24 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mdf807f2597" d="M 0 0 
+L 0 3 
+" style="stroke: #46585e; stroke-width: 0.7"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdf807f2597" x="39.6" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="39.6" y="273.434375" transform="rotate(-0 39.6 273.434375)">2019</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mdf807f2597" x="104.901818" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="104.901818" y="273.434375" transform="rotate(-0 104.901818 273.434375)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mdf807f2597" x="170.382545" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="170.382545" y="273.434375" transform="rotate(-0 170.382545 273.434375)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdf807f2597" x="235.684364" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="235.684364" y="273.434375" transform="rotate(-0 235.684364 273.434375)">2022</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mdf807f2597" x="300.986182" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="300.986182" y="273.434375" transform="rotate(-0 300.986182 273.434375)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mdf807f2597" x="366.288" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="366.288" y="273.434375" transform="rotate(-0 366.288 273.434375)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mdf807f2597" x="431.768727" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="431.768727" y="273.434375" transform="rotate(-0 431.768727 273.434375)">2025</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="261" y="286.719043" transform="rotate(-0 261 286.719043)">Mese in cui si è comprato il titolo</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="m475a8dac65" d="M 0 0 
+L -3 0 
+" style="stroke: #46585e; stroke-width: 0.7"/>
+      </defs>
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="259.2" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="263.317187" transform="rotate(-0 33.6 263.317187)">−20%</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="237.76" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="241.877187" transform="rotate(-0 33.6 241.877187)">−15%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="216.32" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="220.437187" transform="rotate(-0 33.6 220.437187)">−10%</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="194.88" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="198.997187" transform="rotate(-0 33.6 198.997187)">−5%</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="173.44" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="177.557187" transform="rotate(-0 33.6 177.557187)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="152" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="156.117188" transform="rotate(-0 33.6 156.117188)">5%</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="130.56" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="134.677188" transform="rotate(-0 33.6 134.677188)">10%</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="109.12" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="113.237188" transform="rotate(-0 33.6 113.237188)">15%</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="87.68" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="91.797188" transform="rotate(-0 33.6 91.797188)">20%</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m475a8dac65" x="39.6" y="66.24" style="fill: #46585e; stroke: #46585e; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="33.6" y="70.357188" transform="rotate(-0 33.6 70.357188)">25%</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_18">
+    <path d="M 39.6 173.44 
+L 482.4 173.44 
+" clip-path="url(#p28a5fbdc45)" style="fill: none; stroke: #46585e; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 39.6 259.2 
+L 39.6 66.24 
+" style="fill: none; stroke: #46585e; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 39.6 259.2 
+L 480.610909 259.2 
+" style="fill: none; stroke: #46585e; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 39.778909 192.529318 
+L 45.146182 195.65913 
+L 50.155636 195.328096 
+L 55.701818 205.684474 
+L 61.248 203.755731 
+L 66.973091 214.547341 
+L 71.982545 220.121312 
+L 77.528727 225.787046 
+L 83.253818 238.226534 
+L 88.442182 232.002502 
+L 93.988364 227.958061 
+L 99.534545 223.497683 
+L 105.080727 219.467821 
+L 110.805818 232.697158 
+L 115.815273 240.737587 
+L 121.182545 236.672563 
+L 127.086545 240.25047 
+L 132.274909 234.07232 
+L 137.463273 237.518586 
+L 143.367273 242.340013 
+L 148.555636 237.015174 
+L 153.922909 243.399578 
+L 159.648 248.585485 
+L 164.836364 246.594138 
+L 170.919273 250.163898 
+L 175.928727 247.732173 
+L 180.938182 239.922867 
+L 186.484364 240.502605 
+L 192.209455 235.743782 
+L 197.397818 237.503578 
+L 202.765091 240.116256 
+L 208.490182 251.430573 
+L 213.857455 249.089754 
+L 219.224727 243.882406 
+L 224.770909 240.369677 
+L 230.138182 250.774509 
+L 236.042182 245.308595 
+L 241.230545 240.547629 
+L 246.24 237.807168 
+L 251.786182 216.869722 
+L 257.332364 206.562656 
+L 262.699636 196.255162 
+L 268.066909 186.387187 
+L 273.613091 209.33785 
+L 279.159273 181.357363 
+L 284.884364 160.760384 
+L 290.072727 162.257754 
+L 295.44 173.446003 
+L 301.165091 148.99497 
+L 306.532364 159.772858 
+L 311.541818 141.679213 
+L 317.445818 158.536198 
+L 322.634182 158.863802 
+L 328.001455 162.807046 
+L 333.726545 160.077306 
+L 338.914909 156.453946 
+L 344.461091 158.85008 
+L 350.007273 143.89568 
+L 355.374545 147.070944 
+L 360.741818 163.608474 
+L 366.466909 177.414976 
+L 371.834182 175.061722 
+L 377.022545 168.393024 
+L 382.747636 171.605594 
+L 388.114909 165.409862 
+L 393.84 162.813478 
+L 398.849455 166.258458 
+L 404.395636 179.07143 
+L 410.120727 178.01401 
+L 415.309091 189.139226 
+L 420.855273 177.312064 
+L 426.401455 192.322208 
+L 431.947636 182.100045 
+L 437.672727 182.242406 
+L 442.682182 181.091078 
+L 447.870545 173.557062 
+L 453.416727 183.132166 
+L 458.962909 180.993312 
+L 464.151273 181.793453 
+L 469.697455 177.80647 
+L 475.243636 177.581779 
+L 480.610909 179.18592 
+" clip-path="url(#p28a5fbdc45)" style="fill: none; stroke: #4f63d6; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="45.146182" y="77.606595" transform="rotate(-0 45.146182 77.606595)">BTP italiano</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="115.636364" y="252.861707" transform="rotate(-0 115.636364 252.861707)">Bund tedesco</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 202.046881 200.870834 
+Q 204.660146 209.058936 207.273411 217.247038 
+" style="fill: none; stroke: #46585e; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(173.834068 182.582437)">agosto 2021</text>
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(161.793443 194.320562)">allo 0,65%: −11,1%</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 233.079523 140.478697 
+Q 243.315631 144.039035 253.551739 147.599373 
+" style="fill: none; stroke: #46585e; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(179.119432 124.793813)">maggio 2022</text>
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(166.659432 136.432562)">al 2,75%: +5,7%</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 319.472296 80.727099 
+Q 312.283053 82.136655 305.09381 83.54621 
+" style="fill: none; stroke: #46585e; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(322.455273 69.907413)">gennaio 2023</text>
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Inter'; fill: #17323d" transform="translate(322.455273 81.546163)">al 4,71%: +20,8%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.5px; font-family: 'Inter'; fill: #17323d" transform="translate(290.072727 224.562182)">Ogni punto è un acquisto diverso:</text>
+    <text style="font-size: 8.5px; font-family: 'Inter'; fill: #17323d" transform="translate(290.072727 237.942211)">un decennale comprato in quel mese</text>
+    <text style="font-size: 8.5px; font-family: 'Inter'; fill: #17323d" transform="translate(290.072727 252.06599)">e valutato al 30 settembre 2026</text>
+   </g>
+   <g id="line2d_20">
+    <path d="M 39.778909 94.358131 
+L 45.146182 92.040467 
+L 50.155636 88.236154 
+L 55.701818 97.666752 
+L 61.248 104.586298 
+L 66.973091 103.392518 
+L 71.982545 129.947674 
+L 77.528727 150.205472 
+L 83.253818 176.393146 
+L 88.442182 180.213325 
+L 94.525091 175.867437 
+L 99.534545 161.341408 
+L 105.080727 163.776134 
+L 110.805818 183.815245 
+L 115.815273 176.715603 
+L 121.182545 158.867661 
+L 127.086545 154.400422 
+L 132.096 166.837338 
+L 137.463273 174.764992 
+L 143.367273 188.584358 
+L 148.555636 185.469984 
+L 153.922909 197.719514 
+L 159.648 203.546048 
+L 164.836364 209.977619 
+L 170.919273 216.197792 
+L 175.928727 214.303354 
+L 180.938182 210.985728 
+L 186.484364 213.723187 
+L 192.209455 206.41472 
+L 197.397818 208.170656 
+L 202.765091 211.059053 
+L 208.490182 221.059526 
+L 213.857455 218.141114 
+L 219.224727 215.706816 
+L 224.770909 201.566707 
+L 230.138182 208.466099 
+L 236.042182 204.185389 
+L 241.230545 200.217274 
+L 246.24 195.982874 
+L 251.786182 172.495782 
+L 257.332364 148.914355 
+L 262.699636 132.274771 
+L 268.066909 133.415379 
+L 273.613091 140.967405 
+L 279.159273 110.473293 
+L 284.884364 87.314234 
+L 290.072727 103.30633 
+L 295.44 115.860736 
+L 301.165091 84.316493 
+L 306.532364 103.898502 
+L 311.541818 95.442138 
+L 317.445818 112.501946 
+L 322.634182 109.839526 
+L 328.001455 116.076851 
+L 333.726545 119.550131 
+L 338.914909 119.806554 
+L 344.461091 118.097786 
+L 350.007273 95.377818 
+L 355.374545 99.090797 
+L 360.741818 124.616832 
+L 366.466909 142.968614 
+L 371.834182 144.462554 
+L 377.022545 141.313018 
+L 382.747636 147.099245 
+L 388.114909 145.653331 
+L 393.84 146.18976 
+L 398.849455 140.871354 
+L 404.395636 158.498035 
+L 410.120727 155.399098 
+L 415.309091 173.049792 
+L 420.855273 163.280442 
+L 426.401455 180.698298 
+L 431.947636 172.885562 
+L 437.672727 172.055405 
+L 442.682182 173.723437 
+L 447.870545 167.891328 
+L 453.416727 176.875117 
+L 458.962909 180.115987 
+L 464.151273 185.32848 
+L 469.697455 183.895002 
+L 475.243636 182.436653 
+" clip-path="url(#p28a5fbdc45)" style="fill: none; stroke: #d9534a; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_21">
+    <defs>
+     <path id="m617ef3034a" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff; stroke-width: 0.8"/>
+    </defs>
+    <g clip-path="url(#p28a5fbdc45)">
+     <use xlink:href="#m617ef3034a" x="208.490182" y="221.059526" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <g clip-path="url(#p28a5fbdc45)">
+     <use xlink:href="#m617ef3034a" x="257.332364" y="148.914355" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8"/>
+    </g>
+   </g>
+   <g id="line2d_23">
+    <g clip-path="url(#p28a5fbdc45)">
+     <use xlink:href="#m617ef3034a" x="301.165091" y="84.316493" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_25">
+   <text style="font-weight: 600; font-size: 16.5px; font-family: 'Lora Grinny SemiBold'; text-anchor: middle; fill: #17323d" x="262.8" y="27.442758" transform="rotate(-0 262.8 27.442758)">Chi ha comprato il BTP decennale nel 2021 è ancora in perdita</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 9px; font-family: 'Inter'; fill: #46585e" transform="translate(75.866484 46.208584)">Guadagno o perdita totale a oggi, cedole comprese, di un BTP o Bund decennale nuovo,</text>
+   <text style="font-size: 9px; font-family: 'Inter'; fill: #46585e" transform="translate(166.291172 60.460049)">secondo il mese in cui è stato comprato, in %</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 7px; font-family: 'Inter'; fill: #6b7b80" transform="translate(14.4 306.823257)">Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200) e Deutsche Bundesbank (BBSIS), estratti il 25/10/2026.</text>
+   <text style="font-size: 7px; font-family: 'Inter'; fill: #6b7b80" transform="translate(14.4 318.074731)">Cedole più valore del titolo, lordo d'imposta. BTP al 30/09/2026, Bund al 23/10/2026; rendimenti interpolati sulla vita residua.</text>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Inter'; text-anchor: end; fill: #6b7b80" x="516.96" y="320.151523" transform="rotate(-0 516.96 320.151523)">Grinny Finanza</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p28a5fbdc45">
+   <rect x="39.6" y="66.24" width="442.8" height="192.96"/>
+  </clipPath>
+ </defs>
+</svg>

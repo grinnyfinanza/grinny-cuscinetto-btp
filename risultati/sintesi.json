@@ -1,0 +1,1068 @@
+{
+  "verifiche": {
+    "bdi_media_set_2026": {
+      "btp_3a": 3.56,
+      "btp_10a": 4.36,
+      "btp_30a": 5.01
+    },
+    "bdi_pubblicato_set_2026": {
+      "btp_3a": 3.56,
+      "btp_10a": 4.36,
+      "btp_30a": 5.01
+    },
+    "it_diff_bdi_bce_pb": {
+      "media": 0.0,
+      "media_abs": 0.0,
+      "max_abs": 0.1,
+      "mesi": 333
+    },
+    "de_diff_bbk_bce_pb": {
+      "media": 7.7,
+      "media_abs": 7.8,
+      "max_abs": 34.9
+    },
+    "nangle_usa": {
+      "soglia_esatta": 5.84,
+      "soglia_euristica": 5.81,
+      "articolo": 5.83
+    }
+  },
+  "serie": {
+    "BTP 10 anni": {
+      "ultima_data": "2026-09-30",
+      "ultimo_rendimento": 4.59,
+      "soglia_esatta": 5.23,
+      "soglia_euristica": 5.22,
+      "soglia_netta_12_5": 5.15,
+      "margine_pb": 65,
+      "ultima_data_esito_noto": "2025-09-30",
+      "dal_1999": {
+        "giorni": 6800,
+        "quota_perdita": 0.2614705882352941,
+        "dal": "1999-01-04",
+        "al": "2025-09-30"
+      },
+      "intera_serie": {
+        "giorni": 8777,
+        "quota_perdita": 0.2357297482055372,
+        "dal": "1991-03-05",
+        "al": "2025-09-30"
+      },
+      "2009_2021": {
+        "giorni": 3298,
+        "quota_perdita": 0.36203759854457246,
+        "dal": "2009-01-02",
+        "al": "2021-12-30"
+      },
+      "dal_2022": {
+        "giorni": 951,
+        "quota_perdita": 0.19978969505783387,
+        "dal": "2022-01-03",
+        "al": "2025-09-30"
+      },
+      "episodi": [
+        {
+          "da": "1999-01-04",
+          "a": "1999-07-01",
+          "giorni": 129,
+          "rend_1a_peggiore": -9.74,
+          "y0_min": 3.88,
+          "y0_max": 4.86
+        },
+        {
+          "da": "2003-05-20",
+          "a": "2003-05-27",
+          "giorni": 6,
+          "rend_1a_peggiore": -1.38,
+          "y0_min": 3.81,
+          "y0_max": 3.97
+        },
+        {
+          "da": "2003-05-30",
+          "a": "2003-06-26",
+          "giorni": 20,
+          "rend_1a_peggiore": -3.25,
+          "y0_min": 3.63,
+          "y0_max": 3.93
+        },
+        {
+          "da": "2005-04-13",
+          "a": "2005-10-28",
+          "giorni": 143,
+          "rend_1a_peggiore": -4.57,
+          "y0_min": 3.21,
+          "y0_max": 3.66
+        },
+        {
+          "da": "2005-12-14",
+          "a": "2006-02-24",
+          "giorni": 52,
+          "rend_1a_peggiore": -2.86,
+          "y0_min": 3.45,
+          "y0_max": 3.73
+        },
+        {
+          "da": "2006-09-20",
+          "a": "2006-10-18",
+          "giorni": 21,
+          "rend_1a_peggiore": -1.55,
+          "y0_min": 3.94,
+          "y0_max": 4.09
+        },
+        {
+          "da": "2006-12-11",
+          "a": "2006-12-15",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.58,
+          "y0_min": 3.96,
+          "y0_max": 4.03
+        },
+        {
+          "da": "2009-12-14",
+          "a": "2010-01-04",
+          "giorni": 12,
+          "rend_1a_peggiore": -1.3,
+          "y0_min": 3.97,
+          "y0_max": 4.12
+        },
+        {
+          "da": "2010-01-06",
+          "a": "2010-01-13",
+          "giorni": 6,
+          "rend_1a_peggiore": -1.5,
+          "y0_min": 4.04,
+          "y0_max": 4.1
+        },
+        {
+          "da": "2010-01-18",
+          "a": "2010-02-01",
+          "giorni": 11,
+          "rend_1a_peggiore": -1.41,
+          "y0_min": 4.01,
+          "y0_max": 4.13
+        },
+        {
+          "da": "2010-02-08",
+          "a": "2010-05-06",
+          "giorni": 62,
+          "rend_1a_peggiore": -4.17,
+          "y0_min": 3.9,
+          "y0_max": 4.16
+        },
+        {
+          "da": "2010-05-10",
+          "a": "2010-06-01",
+          "giorni": 17,
+          "rend_1a_peggiore": -2.67,
+          "y0_min": 3.87,
+          "y0_max": 4.16
+        },
+        {
+          "da": "2010-06-09",
+          "a": "2011-02-18",
+          "giorni": 181,
+          "rend_1a_peggiore": -17.93,
+          "y0_min": 3.71,
+          "y0_max": 4.84
+        },
+        {
+          "da": "2011-04-06",
+          "a": "2011-07-04",
+          "giorni": 62,
+          "rend_1a_peggiore": -4.86,
+          "y0_min": 4.63,
+          "y0_max": 5.0
+        },
+        {
+          "da": "2011-08-11",
+          "a": "2011-08-22",
+          "giorni": 7,
+          "rend_1a_peggiore": -1.24,
+          "y0_min": 4.89,
+          "y0_max": 5.03
+        },
+        {
+          "da": "2015-03-06",
+          "a": "2015-03-16",
+          "giorni": 7,
+          "rend_1a_peggiore": -1.26,
+          "y0_min": 1.1,
+          "y0_max": 1.31
+        },
+        {
+          "da": "2015-11-11",
+          "a": "2015-12-14",
+          "giorni": 24,
+          "rend_1a_peggiore": -4.3,
+          "y0_min": 1.38,
+          "y0_max": 1.64
+        },
+        {
+          "da": "2016-01-04",
+          "a": "2016-10-28",
+          "giorni": 212,
+          "rend_1a_peggiore": -8.73,
+          "y0_min": 1.11,
+          "y0_max": 1.71
+        },
+        {
+          "da": "2017-05-25",
+          "a": "2017-07-12",
+          "giorni": 35,
+          "rend_1a_peggiore": -6.27,
+          "y0_min": 1.87,
+          "y0_max": 2.37
+        },
+        {
+          "da": "2017-07-20",
+          "a": "2018-05-22",
+          "giorni": 211,
+          "rend_1a_peggiore": -11.97,
+          "y0_min": 1.64,
+          "y0_max": 2.32
+        },
+        {
+          "da": "2019-08-29",
+          "a": "2019-09-09",
+          "giorni": 8,
+          "rend_1a_peggiore": -1.28,
+          "y0_min": 0.84,
+          "y0_max": 0.97
+        },
+        {
+          "da": "2020-10-08",
+          "a": "2022-06-09",
+          "giorni": 426,
+          "rend_1a_peggiore": -27.1,
+          "y0_min": 0.44,
+          "y0_max": 3.49
+        },
+        {
+          "da": "2022-06-30",
+          "a": "2022-08-23",
+          "giorni": 38,
+          "rend_1a_peggiore": -6.66,
+          "y0_min": 2.93,
+          "y0_max": 3.62
+        },
+        {
+          "da": "2025-08-28",
+          "a": "2025-09-30",
+          "giorni": 24,
+          "rend_1a_peggiore": -3.98,
+          "y0_min": 3.49,
+          "y0_max": 3.7
+        }
+      ],
+      "diff_soglia_esatta_euristica_pb_media": 1.3
+    },
+    "BTP 3 anni": {
+      "ultima_data": "2026-09-30",
+      "ultimo_rendimento": 3.73,
+      "soglia_esatta": 5.73,
+      "soglia_euristica": 5.68,
+      "soglia_netta_12_5": 5.47,
+      "margine_pb": 200,
+      "ultima_data_esito_noto": "2025-09-30",
+      "dal_1999": {
+        "giorni": 6793,
+        "quota_perdita": 0.20153098778153983,
+        "dal": "1999-01-04",
+        "al": "2025-09-30"
+      },
+      "intera_serie": {
+        "giorni": 8364,
+        "quota_perdita": 0.16367766618842658,
+        "dal": "1992-10-12",
+        "al": "2025-09-30"
+      },
+      "2009_2021": {
+        "giorni": 3296,
+        "quota_perdita": 0.31887135922330095,
+        "dal": "2009-01-02",
+        "al": "2021-12-30"
+      },
+      "dal_2022": {
+        "giorni": 951,
+        "quota_perdita": 0.1650893796004206,
+        "dal": "2022-01-03",
+        "al": "2025-09-30"
+      },
+      "episodi": [
+        {
+          "da": "1999-01-18",
+          "a": "1999-02-23",
+          "giorni": 27,
+          "rend_1a_peggiore": -0.38,
+          "y0_min": 3.02,
+          "y0_max": 3.21
+        },
+        {
+          "da": "1999-03-29",
+          "a": "1999-04-05",
+          "giorni": 6,
+          "rend_1a_peggiore": -0.15,
+          "y0_min": 3.09,
+          "y0_max": 3.15
+        },
+        {
+          "da": "1999-04-07",
+          "a": "1999-06-24",
+          "giorni": 57,
+          "rend_1a_peggiore": -1.52,
+          "y0_min": 2.91,
+          "y0_max": 3.45
+        },
+        {
+          "da": "2005-06-01",
+          "a": "2005-06-15",
+          "giorni": 11,
+          "rend_1a_peggiore": -0.46,
+          "y0_min": 2.21,
+          "y0_max": 2.32
+        },
+        {
+          "da": "2005-06-20",
+          "a": "2005-07-29",
+          "giorni": 30,
+          "rend_1a_peggiore": -0.81,
+          "y0_min": 2.17,
+          "y0_max": 2.44
+        },
+        {
+          "da": "2005-08-15",
+          "a": "2005-08-22",
+          "giorni": 6,
+          "rend_1a_peggiore": -0.28,
+          "y0_min": 2.38,
+          "y0_max": 2.44
+        },
+        {
+          "da": "2005-08-31",
+          "a": "2005-09-23",
+          "giorni": 18,
+          "rend_1a_peggiore": -0.36,
+          "y0_min": 2.28,
+          "y0_max": 2.4
+        },
+        {
+          "da": "2009-12-14",
+          "a": "2009-12-29",
+          "giorni": 10,
+          "rend_1a_peggiore": -0.52,
+          "y0_min": 1.82,
+          "y0_max": 1.94
+        },
+        {
+          "da": "2010-02-10",
+          "a": "2010-05-04",
+          "giorni": 58,
+          "rend_1a_peggiore": -1.64,
+          "y0_min": 1.68,
+          "y0_max": 2.2
+        },
+        {
+          "da": "2010-05-10",
+          "a": "2010-05-26",
+          "giorni": 13,
+          "rend_1a_peggiore": -1.14,
+          "y0_min": 1.82,
+          "y0_max": 2.16
+        },
+        {
+          "da": "2010-06-10",
+          "a": "2010-06-29",
+          "giorni": 14,
+          "rend_1a_peggiore": -0.74,
+          "y0_min": 2.02,
+          "y0_max": 2.41
+        },
+        {
+          "da": "2010-07-05",
+          "a": "2011-01-19",
+          "giorni": 141,
+          "rend_1a_peggiore": -6.42,
+          "y0_min": 1.91,
+          "y0_max": 3.34
+        },
+        {
+          "da": "2015-11-12",
+          "a": "2015-12-11",
+          "giorni": 22,
+          "rend_1a_peggiore": -0.76,
+          "y0_min": 0.04,
+          "y0_max": 0.19
+        },
+        {
+          "da": "2016-01-22",
+          "a": "2016-02-11",
+          "giorni": 15,
+          "rend_1a_peggiore": -0.5,
+          "y0_min": 0.02,
+          "y0_max": 0.18
+        },
+        {
+          "da": "2016-02-15",
+          "a": "2016-06-13",
+          "giorni": 84,
+          "rend_1a_peggiore": -0.85,
+          "y0_min": -0.02,
+          "y0_max": 0.15
+        },
+        {
+          "da": "2016-06-28",
+          "a": "2016-10-14",
+          "giorni": 78,
+          "rend_1a_peggiore": -0.62,
+          "y0_min": -0.05,
+          "y0_max": 0.07
+        },
+        {
+          "da": "2016-12-21",
+          "a": "2017-01-04",
+          "giorni": 10,
+          "rend_1a_peggiore": -0.27,
+          "y0_min": 0.0,
+          "y0_max": 0.03
+        },
+        {
+          "da": "2017-05-22",
+          "a": "2018-05-28",
+          "giorni": 258,
+          "rend_1a_peggiore": -4.49,
+          "y0_min": -0.12,
+          "y0_max": 0.83
+        },
+        {
+          "da": "2019-08-29",
+          "a": "2019-09-16",
+          "giorni": 13,
+          "rend_1a_peggiore": -0.45,
+          "y0_min": -0.1,
+          "y0_max": 0.04
+        },
+        {
+          "da": "2020-10-09",
+          "a": "2022-06-09",
+          "giorni": 425,
+          "rend_1a_peggiore": -7.79,
+          "y0_min": -0.33,
+          "y0_max": 2.12
+        },
+        {
+          "da": "2022-06-22",
+          "a": "2022-07-20",
+          "giorni": 21,
+          "rend_1a_peggiore": -2.47,
+          "y0_min": 1.7,
+          "y0_max": 2.43
+        },
+        {
+          "da": "2022-07-22",
+          "a": "2022-08-22",
+          "giorni": 21,
+          "rend_1a_peggiore": -2.05,
+          "y0_min": 1.67,
+          "y0_max": 2.33
+        }
+      ],
+      "diff_soglia_esatta_euristica_pb_media": 2.9
+    },
+    "Bund 10 anni": {
+      "ultima_data": "2026-10-23",
+      "ultimo_rendimento": 3.36,
+      "soglia_esatta": 3.81,
+      "soglia_euristica": 3.8,
+      "soglia_netta_12_5": 3.75,
+      "margine_pb": 45,
+      "ultima_data_esito_noto": "2025-10-23",
+      "dal_1999": {
+        "giorni": 6812,
+        "quota_perdita": 0.2987375220199648,
+        "dal": "1999-01-04",
+        "al": "2025-10-23"
+      },
+      "intera_serie": {
+        "giorni": 7163,
+        "quota_perdita": 0.2958257713248639,
+        "dal": "1997-08-07",
+        "al": "2025-10-23"
+      },
+      "2009_2021": {
+        "giorni": 3297,
+        "quota_perdita": 0.33424325144070366,
+        "dal": "2009-01-02",
+        "al": "2021-12-30"
+      },
+      "dal_2022": {
+        "giorni": 974,
+        "quota_perdita": 0.5759753593429158,
+        "dal": "2022-01-03",
+        "al": "2025-10-23"
+      },
+      "episodi": [
+        {
+          "da": "1999-01-04",
+          "a": "1999-06-24",
+          "giorni": 119,
+          "rend_1a_peggiore": -9.28,
+          "y0_min": 3.76,
+          "y0_max": 4.62
+        },
+        {
+          "da": "2003-06-04",
+          "a": "2003-06-18",
+          "giorni": 11,
+          "rend_1a_peggiore": -3.24,
+          "y0_min": 3.53,
+          "y0_max": 3.79
+        },
+        {
+          "da": "2005-04-25",
+          "a": "2005-10-27",
+          "giorni": 134,
+          "rend_1a_peggiore": -4.25,
+          "y0_min": 3.02,
+          "y0_max": 3.5
+        },
+        {
+          "da": "2005-12-19",
+          "a": "2006-02-24",
+          "giorni": 49,
+          "rend_1a_peggiore": -3.03,
+          "y0_min": 3.26,
+          "y0_max": 3.55
+        },
+        {
+          "da": "2006-06-08",
+          "a": "2006-06-23",
+          "giorni": 12,
+          "rend_1a_peggiore": -2.0,
+          "y0_min": 3.9,
+          "y0_max": 4.1
+        },
+        {
+          "da": "2006-09-21",
+          "a": "2006-10-18",
+          "giorni": 20,
+          "rend_1a_peggiore": -1.44,
+          "y0_min": 3.72,
+          "y0_max": 3.87
+        },
+        {
+          "da": "2006-12-11",
+          "a": "2006-12-15",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.78,
+          "y0_min": 3.75,
+          "y0_max": 3.83
+        },
+        {
+          "da": "2010-06-29",
+          "a": "2010-07-05",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.66,
+          "y0_min": 2.66,
+          "y0_max": 2.71
+        },
+        {
+          "da": "2012-07-06",
+          "a": "2012-10-17",
+          "giorni": 74,
+          "rend_1a_peggiore": -3.25,
+          "y0_min": 1.18,
+          "y0_max": 1.71
+        },
+        {
+          "da": "2012-11-01",
+          "a": "2013-01-25",
+          "giorni": 57,
+          "rend_1a_peggiore": -4.13,
+          "y0_min": 1.33,
+          "y0_max": 1.61
+        },
+        {
+          "da": "2013-03-18",
+          "a": "2013-05-09",
+          "giorni": 36,
+          "rend_1a_peggiore": -1.88,
+          "y0_min": 1.22,
+          "y0_max": 1.41
+        },
+        {
+          "da": "2015-04-16",
+          "a": "2015-04-28",
+          "giorni": 9,
+          "rend_1a_peggiore": -0.92,
+          "y0_min": 0.07,
+          "y0_max": 0.18
+        },
+        {
+          "da": "2016-01-29",
+          "a": "2016-04-12",
+          "giorni": 51,
+          "rend_1a_peggiore": -2.29,
+          "y0_min": 0.08,
+          "y0_max": 0.33
+        },
+        {
+          "da": "2016-04-25",
+          "a": "2016-12-05",
+          "giorni": 159,
+          "rend_1a_peggiore": -7.48,
+          "y0_min": -0.24,
+          "y0_max": 0.33
+        },
+        {
+          "da": "2016-12-20",
+          "a": "2017-05-26",
+          "giorni": 110,
+          "rend_1a_peggiore": -4.27,
+          "y0_min": 0.16,
+          "y0_max": 0.46
+        },
+        {
+          "da": "2017-05-31",
+          "a": "2017-06-26",
+          "giorni": 18,
+          "rend_1a_peggiore": -1.91,
+          "y0_min": 0.28,
+          "y0_max": 0.34
+        },
+        {
+          "da": "2017-10-04",
+          "a": "2017-10-10",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.52,
+          "y0_min": 0.44,
+          "y0_max": 0.48
+        },
+        {
+          "da": "2017-10-12",
+          "a": "2017-10-18",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.57,
+          "y0_min": 0.38,
+          "y0_max": 0.45
+        },
+        {
+          "da": "2019-08-05",
+          "a": "2019-10-10",
+          "giorni": 48,
+          "rend_1a_peggiore": -3.55,
+          "y0_min": -0.74,
+          "y0_max": -0.49
+        },
+        {
+          "da": "2020-02-17",
+          "a": "2020-03-24",
+          "giorni": 27,
+          "rend_1a_peggiore": -5.79,
+          "y0_min": -0.85,
+          "y0_max": -0.27
+        },
+        {
+          "da": "2020-03-27",
+          "a": "2020-08-13",
+          "giorni": 96,
+          "rend_1a_peggiore": -4.34,
+          "y0_min": -0.57,
+          "y0_max": -0.25
+        },
+        {
+          "da": "2020-08-18",
+          "a": "2020-08-28",
+          "giorni": 9,
+          "rend_1a_peggiore": -0.8,
+          "y0_min": -0.53,
+          "y0_max": -0.4
+        },
+        {
+          "da": "2020-09-01",
+          "a": "2022-12-13",
+          "giorni": 585,
+          "rend_1a_peggiore": -22.51,
+          "y0_min": -0.66,
+          "y0_max": 2.49
+        },
+        {
+          "da": "2023-12-20",
+          "a": "2024-01-04",
+          "giorni": 9,
+          "rend_1a_peggiore": -1.73,
+          "y0_min": 1.95,
+          "y0_max": 2.13
+        },
+        {
+          "da": "2024-01-08",
+          "a": "2024-01-17",
+          "giorni": 8,
+          "rend_1a_peggiore": -1.12,
+          "y0_min": 2.19,
+          "y0_max": 2.27
+        },
+        {
+          "da": "2024-03-06",
+          "a": "2024-04-02",
+          "giorni": 18,
+          "rend_1a_peggiore": -2.38,
+          "y0_min": 2.28,
+          "y0_max": 2.48
+        },
+        {
+          "da": "2024-07-29",
+          "a": "2024-10-21",
+          "giorni": 61,
+          "rend_1a_peggiore": -3.02,
+          "y0_min": 2.1,
+          "y0_max": 2.37
+        },
+        {
+          "da": "2024-10-24",
+          "a": "2024-10-30",
+          "giorni": 5,
+          "rend_1a_peggiore": -0.3,
+          "y0_min": 2.31,
+          "y0_max": 2.35
+        },
+        {
+          "da": "2024-11-14",
+          "a": "2025-01-08",
+          "giorni": 35,
+          "rend_1a_peggiore": -3.87,
+          "y0_min": 2.08,
+          "y0_max": 2.51
+        },
+        {
+          "da": "2025-01-29",
+          "a": "2025-02-14",
+          "giorni": 13,
+          "rend_1a_peggiore": -1.79,
+          "y0_min": 2.36,
+          "y0_max": 2.54
+        },
+        {
+          "da": "2025-04-09",
+          "a": "2025-06-25",
+          "giorni": 53,
+          "rend_1a_peggiore": -2.7,
+          "y0_min": 2.46,
+          "y0_max": 2.7
+        },
+        {
+          "da": "2025-07-01",
+          "a": "2025-10-23",
+          "giorni": 83,
+          "rend_1a_peggiore": -4.05,
+          "y0_min": 2.57,
+          "y0_max": 2.79
+        }
+      ],
+      "diff_soglia_esatta_euristica_pb_media": 0.8
+    },
+    "Bund 3 anni": {
+      "ultima_data": "2026-10-23",
+      "ultimo_rendimento": 3.05,
+      "soglia_esatta": 4.68,
+      "soglia_euristica": 4.65,
+      "soglia_netta_12_5": 4.47,
+      "margine_pb": 163,
+      "ultima_data_esito_noto": "2025-10-23",
+      "dal_1999": {
+        "giorni": 6812,
+        "quota_perdita": 0.29154433352906634,
+        "dal": "1999-01-04",
+        "al": "2025-10-23"
+      },
+      "intera_serie": {
+        "giorni": 7163,
+        "quota_perdita": 0.27725813206756944,
+        "dal": "1997-08-07",
+        "al": "2025-10-23"
+      },
+      "2009_2021": {
+        "giorni": 3297,
+        "quota_perdita": 0.4989384288747346,
+        "dal": "2009-01-02",
+        "al": "2021-12-30"
+      },
+      "dal_2022": {
+        "giorni": 974,
+        "quota_perdita": 0.23716632443531827,
+        "dal": "2022-01-03",
+        "al": "2025-10-23"
+      },
+      "episodi": [
+        {
+          "da": "1999-01-13",
+          "a": "1999-02-03",
+          "giorni": 16,
+          "rend_1a_peggiore": -0.45,
+          "y0_min": 2.96,
+          "y0_max": 3.08
+        },
+        {
+          "da": "1999-04-08",
+          "a": "1999-06-04",
+          "giorni": 39,
+          "rend_1a_peggiore": -1.14,
+          "y0_min": 2.88,
+          "y0_max": 3.24
+        },
+        {
+          "da": "2005-06-02",
+          "a": "2005-06-14",
+          "giorni": 9,
+          "rend_1a_peggiore": -0.37,
+          "y0_min": 2.19,
+          "y0_max": 2.3
+        },
+        {
+          "da": "2005-06-21",
+          "a": "2005-07-13",
+          "giorni": 17,
+          "rend_1a_peggiore": -0.71,
+          "y0_min": 2.17,
+          "y0_max": 2.36
+        },
+        {
+          "da": "2005-09-02",
+          "a": "2005-09-22",
+          "giorni": 15,
+          "rend_1a_peggiore": -0.26,
+          "y0_min": 2.24,
+          "y0_max": 2.39
+        },
+        {
+          "da": "2010-04-07",
+          "a": "2010-07-09",
+          "giorni": 68,
+          "rend_1a_peggiore": -1.63,
+          "y0_min": 0.74,
+          "y0_max": 1.47
+        },
+        {
+          "da": "2012-07-06",
+          "a": "2012-10-17",
+          "giorni": 74,
+          "rend_1a_peggiore": -0.75,
+          "y0_min": -0.01,
+          "y0_max": 0.23
+        },
+        {
+          "da": "2012-10-26",
+          "a": "2013-01-16",
+          "giorni": 54,
+          "rend_1a_peggiore": -0.77,
+          "y0_min": -0.01,
+          "y0_max": 0.23
+        },
+        {
+          "da": "2013-02-28",
+          "a": "2013-05-14",
+          "giorni": 51,
+          "rend_1a_peggiore": -0.43,
+          "y0_min": 0.0,
+          "y0_max": 0.15
+        },
+        {
+          "da": "2016-03-01",
+          "a": "2016-03-10",
+          "giorni": 8,
+          "rend_1a_peggiore": -0.14,
+          "y0_min": -0.56,
+          "y0_max": -0.53
+        },
+        {
+          "da": "2016-03-18",
+          "a": "2016-04-01",
+          "giorni": 9,
+          "rend_1a_peggiore": -0.21,
+          "y0_min": -0.49,
+          "y0_max": -0.46
+        },
+        {
+          "da": "2016-04-25",
+          "a": "2018-01-26",
+          "giorni": 448,
+          "rend_1a_peggiore": -1.94,
+          "y0_min": -0.9,
+          "y0_max": -0.39
+        },
+        {
+          "da": "2018-02-21",
+          "a": "2018-04-24",
+          "giorni": 43,
+          "rend_1a_peggiore": -0.29,
+          "y0_min": -0.47,
+          "y0_max": -0.37
+        },
+        {
+          "da": "2018-04-26",
+          "a": "2018-05-08",
+          "giorni": 8,
+          "rend_1a_peggiore": -0.15,
+          "y0_min": -0.43,
+          "y0_max": -0.39
+        },
+        {
+          "da": "2018-05-22",
+          "a": "2018-06-13",
+          "giorni": 17,
+          "rend_1a_peggiore": -0.78,
+          "y0_min": -0.7,
+          "y0_max": -0.44
+        },
+        {
+          "da": "2018-06-15",
+          "a": "2018-07-20",
+          "giorni": 26,
+          "rend_1a_peggiore": -0.28,
+          "y0_min": -0.59,
+          "y0_max": -0.52
+        },
+        {
+          "da": "2018-10-23",
+          "a": "2019-02-27",
+          "giorni": 87,
+          "rend_1a_peggiore": -0.6,
+          "y0_min": -0.58,
+          "y0_max": -0.45
+        },
+        {
+          "da": "2019-03-19",
+          "a": "2022-09-27",
+          "giorni": 896,
+          "rend_1a_peggiore": -7.78,
+          "y0_min": -1.02,
+          "y0_max": 1.89
+        },
+        {
+          "da": "2022-09-30",
+          "a": "2022-10-10",
+          "giorni": 7,
+          "rend_1a_peggiore": -1.45,
+          "y0_min": 1.44,
+          "y0_max": 1.8
+        },
+        {
+          "da": "2025-09-08",
+          "a": "2025-10-01",
+          "giorni": 18,
+          "rend_1a_peggiore": -0.32,
+          "y0_min": 1.97,
+          "y0_max": 2.11
+        },
+        {
+          "da": "2025-10-13",
+          "a": "2025-10-23",
+          "giorni": 9,
+          "rend_1a_peggiore": -0.35,
+          "y0_min": 1.92,
+          "y0_max": 2.01
+        }
+      ],
+      "diff_soglia_esatta_euristica_pb_media": 2.5
+    }
+  },
+  "confronto_ultimo_giorno_comune": {
+    "data": "2026-09-30",
+    "margine_btp_pb": 65,
+    "margine_bund_pb": 49,
+    "spread_pb": 99
+  },
+  "compra_al_minimo": {
+    "data_acquisto": "2021-02-12",
+    "rendimento_acquisto": 0.44,
+    "rend_cum_peggiore": -27.8,
+    "data_peggiore": "2022-10-21",
+    "torna_positivo_dal": null,
+    "rend_cum_ultimo": -11.3,
+    "ultima_data": "2026-09-30",
+    "reale_fino_a": "2025-12",
+    "nominale_a_quella_data": -9.2,
+    "inflazione_cumulata": 22.0,
+    "reale_a_quella_data": -25.6
+  },
+  "esito_a_oggi": {
+    "BTP 10 anni": {
+      "data_valutazione": "2026-09-30",
+      "mesi": 81,
+      "mesi_in_perdita": 33,
+      "ultimo_mese_acquisto_in_perdita": "2025-09-01",
+      "primo_mese_acquisto_in_perdita": "2019-09-02",
+      "peggiore": [
+        "2021-08-02",
+        -11.1
+      ],
+      "mag_2022": {
+        "y_acquisto": 2.75,
+        "residua": 5.59,
+        "y_oggi": 4.05,
+        "rend_cum": 5.72,
+        "anni_trascorsi": 4.41,
+        "rend_annuo": 1.27
+      }
+    },
+    "Bund 10 anni": {
+      "data_valutazione": "2026-10-23",
+      "mesi": 82,
+      "mesi_in_perdita": 63,
+      "ultimo_mese_acquisto_in_perdita": "2025-10-01",
+      "primo_mese_acquisto_in_perdita": "2019-01-02",
+      "peggiore": [
+        "2021-08-02",
+        -18.2
+      ],
+      "mag_2022": {
+        "y_acquisto": 0.84,
+        "residua": 5.52,
+        "y_oggi": 3.14,
+        "rend_cum": -7.72,
+        "anni_trascorsi": 4.48,
+        "rend_annuo": -1.78
+      }
+    }
+  },
+  "alla_data_comune": {
+    "data": "2026-09-30",
+    "BTP 10 anni": {
+      "rendimento": 4.59,
+      "soglia": 5.23,
+      "margine_pb": 65
+    },
+    "BTP 3 anni": {
+      "rendimento": 3.73,
+      "soglia": 5.73,
+      "margine_pb": 200
+    },
+    "Bund 10 anni": {
+      "rendimento": 3.6,
+      "soglia": 4.09,
+      "margine_pb": 49
+    },
+    "Bund 3 anni": {
+      "rendimento": 3.29,
+      "soglia": 5.06,
+      "margine_pb": 177
+    }
+  },
+  "spread": {
+    "data": "2026-09-30",
+    "spread_pb": 99,
+    "allargamento_pareggio_pb": 14,
+    "quota_giorni_btp_sotto_bund_1a_dal_1999": 0.435,
+    "quota_giorni_btp_sotto_bund_1a_dal_2022": 0.029,
+    "giorni": 6776
+  },
+  "maggio_2022": {
+    "data_acquisto": "2022-05-02",
+    "rendimento_acquisto": 2.75,
+    "rend_cum_peggiore": -14.1,
+    "data_peggiore": "2022-10-12",
+    "rend_cum_ultimo": 5.7,
+    "nominale_dic_2025": 8.6,
+    "inflazione_mag22_dic25": 10.8,
+    "reale_dic_2025": -2.0
+  }
+}

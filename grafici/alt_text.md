@@ -1,0 +1,7 @@
+# Testi alternativi
+
+**btp10-soglia-perdita** — Grafico dal 2009 al 2027 intitolato "Il BTP comprato oggi perde solo se i tassi superano il 5,2%". La linea rossa è il rendimento lordo del BTP decennale; ogni linea grigia lo collega al punto blu della sua soglia di perdita un anno dopo. Quando un anno dopo il rendimento sta sopra quel punto, chi aveva comprato è in perdita: le fasce verdi segnano quelle date d'acquisto, come nel 2010-2011 e nel 2021-2022. Al 30 settembre 2026 il rendimento è al 4,59% e la soglia per il settembre 2027 al 5,23%. Elaborazione Grinny Finanza su dati Banca d'Italia, tavola BMK0200.
+
+**margini-3-10-anni** — Barre orizzontali intitolate "I titoli a 3 anni reggono un rialzo dei tassi almeno triplo": di quanti punti base può salire il rendimento in un anno prima che chi compra al 30 settembre 2026 perda. BTP 3 anni 200, Bund 3 anni 177, BTP 10 anni 65, Bund 10 anni 49 (100 punti base = 1 punto percentuale). Elaborazione Grinny Finanza su dati Banca d'Italia e Bundesbank.
+
+**esito-per-mese-acquisto** — Grafico a linee: guadagno o perdita totale a oggi, cedole comprese, di un BTP e di un Bund decennali nuovi, secondo il mese in cui sono stati comprati, dal 2019 al 2025. Ogni punto è un acquisto diverso, valutato al 30 settembre 2026. Chi ha comprato il BTP nel 2021 è ancora in perdita (agosto 2021, allo 0,65%: −11,1%); chi ha comprato a maggio 2022 al 2,75% è a +5,7%, a gennaio 2023 al 4,71% a +20,8%. Elaborazione Grinny Finanza su dati Banca d'Italia e Bundesbank.
