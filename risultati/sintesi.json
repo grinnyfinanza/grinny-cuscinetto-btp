@@ -979,10 +979,10 @@
     "torna_positivo_dal": null,
     "rend_cum_ultimo": -11.3,
     "ultima_data": "2026-09-30",
-    "reale_fino_a": "2025-12",
-    "nominale_a_quella_data": -9.2,
-    "inflazione_cumulata": 22.0,
-    "reale_a_quella_data": -25.6
+    "reale_fino_a": "2026-09",
+    "nominale_a_quella_data": -11.3,
+    "inflazione_cumulata": 27.3,
+    "reale_a_quella_data": -30.4
   },
   "esito_a_oggi": {
     "BTP 10 anni": {
@@ -1005,22 +1005,22 @@
       }
     },
     "Bund 10 anni": {
-      "data_valutazione": "2026-10-23",
-      "mesi": 82,
-      "mesi_in_perdita": 63,
-      "ultimo_mese_acquisto_in_perdita": "2025-10-01",
+      "data_valutazione": "2026-09-30",
+      "mesi": 81,
+      "mesi_in_perdita": 65,
+      "ultimo_mese_acquisto_in_perdita": "2025-09-01",
       "primo_mese_acquisto_in_perdita": "2019-01-02",
       "peggiore": [
         "2021-08-02",
-        -18.2
+        -19.3
       ],
       "mag_2022": {
         "y_acquisto": 0.84,
-        "residua": 5.52,
-        "y_oggi": 3.14,
-        "rend_cum": -7.72,
-        "anni_trascorsi": 4.48,
-        "rend_annuo": -1.78
+        "residua": 5.59,
+        "y_oggi": 3.39,
+        "rend_cum": -9.07,
+        "anni_trascorsi": 4.41,
+        "rend_annuo": -2.13
       }
     }
   },
@@ -1053,7 +1053,13 @@
     "allargamento_pareggio_pb": 14,
     "quota_giorni_btp_sotto_bund_1a_dal_1999": 0.435,
     "quota_giorni_btp_sotto_bund_1a_dal_2022": 0.029,
-    "giorni": 6776
+    "giorni": 6776,
+    "allargamento_pareggio_pb_per_variazione_bund_pb": {
+      "-100": 9,
+      "+0": 14,
+      "+100": 18,
+      "+200": 23
+    }
   },
   "maggio_2022": {
     "data_acquisto": "2022-05-02",
@@ -1061,8 +1067,46 @@
     "rend_cum_peggiore": -14.1,
     "data_peggiore": "2022-10-12",
     "rend_cum_ultimo": 5.7,
-    "nominale_dic_2025": 8.6,
-    "inflazione_mag22_dic25": 10.8,
-    "reale_dic_2025": -2.0
+    "reale_fino_a": "2026-09",
+    "data_valore_nominale": "2026-09-30",
+    "nominale": 5.7,
+    "inflazione_cumulata": 15.7,
+    "reale": -8.6
+  },
+  "robustezza_rolldown": {
+    "metodo": "rendimento dopo un anno alla scadenza residua di 9 anni, interpolato fra 5 e 10 anni",
+    "BTP 10 anni": {
+      "quota_perdita_dal_1999": 0.229,
+      "giorni": 6796,
+      "principale": 0.261
+    },
+    "Bund 10 anni": {
+      "quota_perdita_dal_1999": 0.24,
+      "giorni": 6812,
+      "principale": 0.299
+    },
+    "btp_9a_alla_data_comune": 4.47
+  },
+  "scorciatoia_duration": {
+    "BTP 10 anni": {
+      "durata_fra_un_anno": 7.31,
+      "scorciatoia_pb": 63,
+      "esatto_pb": 65
+    },
+    "BTP 3 anni": {
+      "durata_fra_un_anno": 1.91,
+      "scorciatoia_pb": 195,
+      "esatto_pb": 200
+    },
+    "Bund 10 anni": {
+      "durata_fra_un_anno": 7.57,
+      "scorciatoia_pb": 48,
+      "esatto_pb": 49
+    },
+    "Bund 3 anni": {
+      "durata_fra_un_anno": 1.91,
+      "scorciatoia_pb": 173,
+      "esatto_pb": 177
+    }
   }
 }

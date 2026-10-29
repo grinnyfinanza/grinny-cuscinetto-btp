@@ -84,21 +84,22 @@ def grafico_soglia(formato):
     if formato != "social":
         if formato == "articolo":
             g.nota(ax, pd.Timestamp("2014-08-01"), 8.6,
-                   "Ogni linea grigia porta dal rendimento\ndi un giorno alla sua soglia un anno dopo")
+                   "Ogni linea collega il rendimento iniziale alla soglia\nche, dopo dodici mesi, azzererebbe il rendimento totale")
         else:
-            g.nota(ax, pd.Timestamp("2014-06-01"), 8.2, "Linee grigie: dal\nrendimento alla sua\nsoglia un anno dopo")
+            g.nota(ax, pd.Timestamp("2014-06-01"), 8.2, "Ogni linea collega\nil rendimento iniziale\nalla soglia a 12 mesi")
 
-    titolo = {"articolo": "Il BTP comprato oggi perde solo se i tassi superano il 5,2%",
-              "social": "Il BTP di oggi perde solo se i tassi superano il 5,2%",
-              "linkedin": "Il BTP comprato oggi perde\nsolo se i tassi superano il 5,2%"}[formato]
-    sotto = {"articolo": "Rendimento del BTP decennale e soglia di perdita a un anno, in %",
-             "social": "Rendimento del BTP decennale e soglia di perdita a un anno, in %",
-             "linkedin": "Rendimento del BTP decennale\ne soglia di perdita a un anno, in %"}[formato]
+    titolo = {"articolo": "Il BTP decennale del 30 settembre perde solo oltre il 5,23%",
+              "social": "Il BTP del 30 settembre perde solo oltre il 5,23%",
+              "linkedin": "Il BTP decennale del 30 settembre\nchiude l'anno in perdita oltre il 5,23%"}[formato]
+    sotto = {"articolo": "Rendimento del BTP decennale e soglia di pareggio a dodici mesi, in %",
+             "social": "Rendimento del BTP decennale e soglia di pareggio a dodici mesi, in %",
+             "linkedin": "Rendimento del BTP decennale\ne soglia di pareggio a dodici mesi, in %"}[formato]
     g.intestazione(fig, titolo, sotto)
     fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia, BDS, tavola BMK0200, estratti il {ESTRAZIONE}.",
              "social": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200), {ESTRAZIONE}.",
              "linkedin": f"Fonte: elaborazione Grinny Finanza su dati\nBanca d'Italia (BMK0200), estratti il {ESTRAZIONE}."}[formato]
-    nota_p = "In verde: acquisti che dopo un anno erano in perdita. Dati al 30/09/2026." if formato == "articolo" else None
+    nota_p = ("Fasce verdi: date d'acquisto che hanno chiuso i dodici mesi successivi in perdita. "
+              "BTP sintetico comprato alla pari. Dati al 30/09/2026.") if formato == "articolo" else None
     g.piede(fig, fonte, nota_p)
     g.salva(fig, str(OUT / f"btp10-soglia-perdita_{formato}"))
 
@@ -116,17 +117,17 @@ def grafico_margini(formato):
     fig, ax = g.figura(formato)
     g.barre_orizzontali(ax, nomi, valori, evidenzia=["BTP 3 anni", "BTP 10 anni"],
                         paragone=["Bund 3 anni", "Bund 10 anni"], dec=0, pct=False)
-    titolo = {"articolo": "I titoli a 3 anni reggono un rialzo dei tassi almeno triplo",
-              "social": "I titoli a 3 anni reggono un rialzo dei tassi almeno triplo",
-              "linkedin": "I titoli a 3 anni reggono\nun rialzo dei tassi almeno triplo"}[formato]
-    sotto = {"articolo": f"Di quanto può salire il rendimento in un anno prima che chi compra il {data_it(c['data'])} vada in perdita,\nin punti base (100 punti base = 1 punto percentuale)",
-             "social": f"Rialzo dei tassi sopportabile in un anno, punti base (100 = 1 punto), al {data_it(c['data'])}",
-             "linkedin": f"Di quanto può salire il rendimento in un anno\nprima che chi compra il {data_it(c['data'])} perda,\nin punti base (100 = 1 punto percentuale)"}[formato]
+    titolo = {"articolo": "Sui titoli a 3 anni il cuscinetto è almeno tre volte più largo",
+              "social": "A 3 anni il cuscinetto è almeno tre volte più largo",
+              "linkedin": "Sui titoli a 3 anni il cuscinetto\nè almeno tre volte più largo"}[formato]
+    sotto = {"articolo": f"Di quanto può aumentare il rendimento nei dodici mesi successivi prima che l'investimento\nchiuda in perdita, acquisto al {data_it(c['data'])}, in punti base (100 = 1 punto percentuale)",
+             "social": f"Aumento del rendimento sopportabile in dodici mesi, in punti base, acquisto al {data_it(c['data'])}",
+             "linkedin": f"Di quanto può aumentare il rendimento\nnei dodici mesi successivi prima della perdita,\nacquisto al {data_it(c['data'])}, in punti base"}[formato]
     g.intestazione(fig, titolo, sotto)
     fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200) e Deutsche Bundesbank (BBSIS), estratti il {ESTRAZIONE}.",
              "social": f"Fonte: elab. Grinny Finanza su Banca d'Italia e Bundesbank, {ESTRAZIONE}.",
              "linkedin": f"Fonte: elaborazione Grinny Finanza su dati Banca\nd'Italia e Bundesbank, estratti il {ESTRAZIONE}."}[formato]
-    nota_p = ("BTP: titoli guida, cedola semestrale. Bund: scadenza costante, cedola annuale. Lordo d'imposta.") if formato == "articolo" else None
+    nota_p = ("Titoli sintetici comprati alla pari. BTP: cedola semestrale; Bund: cedola annuale. Lordo d'imposta.") if formato == "articolo" else None
     g.piede(fig, fonte, nota_p)
     g.salva(fig, str(OUT / f"margini-3-10-anni_{formato}"))
 
@@ -154,10 +155,9 @@ def grafico_esito(formato):
     # nomi delle linee dove sono più lontane (inizio 2019): alla fine si incrociano e i nomi si confonderebbero
     stile = dict(fontsize=g.corpo(fig, "nota"), color=g.INCHIOSTRO, fontweight="semibold", ha="left", va="center")
     ax.text(pd.Timestamp("2019-02-01"), eb.loc["2019-03"].rend_cum.iloc[0] + 3.2, "BTP italiano", **stile)
-    if formato == "social":  # poco spazio in basso: il nome va sotto la linea, nel 2023
-        ax.text(pd.Timestamp("2023-04-01"), -9.0, "Bund tedesco", **stile)
-    else:
-        ax.text(pd.Timestamp("2020-03-01"), -19.0, "Bund tedesco", **{**stile, "va": "bottom"})
+    # il nome del Bund va sotto la sua linea nel 2023, dove c'è spazio fra la linea e la nota
+    assert ed.loc["2023-01":"2023-12", "rend_cum"].min() > -4
+    ax.text(pd.Timestamp("2023-02-01"), -7.0 if formato != "social" else -9.0, "Bund tedesco", **stile)
     pos0 = ax.get_position(); ax.set_position([pos0.x0, pos0.y0, pos0.width + 0.45 / fig.get_figwidth(), pos0.height])
     ax.set_xlabel("Mese in cui si è comprato il titolo" if formato != "social" else "Mese d'acquisto", labelpad=3)
     pos = ax.get_position(); alza = (0.18 if formato != "social" else 0.05) / fig.get_figheight()  # spazio per l'etichetta dell'asse sopra il piede
@@ -187,21 +187,21 @@ def grafico_esito(formato):
 
     if formato != "social":
         g.nota(ax, pd.Timestamp("2022-11-01") if formato == "articolo" else pd.Timestamp("2022-06-01"), -14.5,
-               "Ogni punto è un acquisto diverso:\nun decennale comprato in quel mese\ne valutato al 30 settembre 2026"
+               "Ogni punto è un acquisto diverso,\nvalutato al 30 settembre 2026"
                if formato == "articolo" else "Ogni punto è un acquisto\ndiverso, valutato\nal 30/9/2026")
 
     titolo = {"articolo": "Chi ha comprato il BTP decennale nel 2021 è ancora in perdita",
               "social": "Chi ha comprato il BTP nel 2021 è ancora in perdita",
               "linkedin": "Chi ha comprato il BTP decennale\nnel 2021 è ancora in perdita"}[formato]
-    sotto = {"articolo": "Guadagno o perdita totale a oggi, cedole comprese, di un BTP o Bund decennale nuovo,\nsecondo il mese in cui è stato comprato, in %",
-             "social": "Guadagno o perdita totale a oggi, cedole comprese, per mese d'acquisto, in %",
-             "linkedin": "Guadagno o perdita totale a oggi, cedole comprese,\ndi un decennale nuovo, secondo il mese\nin cui è stato comprato, in %"}[formato]
+    sotto = {"articolo": "Rendimento cumulato, cedole comprese, di decennali sintetici acquistati alla pari in ciascun mese\ne valutati al 30 settembre 2026, in %",
+             "social": "Rendimento cumulato al 30/9/2026, cedole comprese, per mese d'acquisto, in %",
+             "linkedin": "Rendimento cumulato, cedole comprese,\ndi decennali acquistati alla pari in ciascun mese\ne valutati al 30 settembre 2026, in %"}[formato]
     g.intestazione(fig, titolo, sotto)
     fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200) e Deutsche Bundesbank (BBSIS), estratti il {ESTRAZIONE}.",
              "social": f"Fonte: elab. Grinny Finanza su Banca d'Italia e Bundesbank, {ESTRAZIONE}.",
              "linkedin": f"Fonte: elaborazione Grinny Finanza su dati Banca\nd'Italia e Bundesbank, estratti il {ESTRAZIONE}."}[formato]
-    nota_p = (f"Cedole più valore del titolo, lordo d'imposta. BTP al 30/09/2026, Bund al "
-              f"{data_it(S['esito_a_oggi']['Bund 10 anni']['data_valutazione'])}; rendimenti interpolati sulla vita residua.") if formato == "articolo" else None
+    assert S['esito_a_oggi']['Bund 10 anni']['data_valutazione'] == S['esito_a_oggi']['BTP 10 anni']['data_valutazione'] == "2026-09-30"
+    nota_p = ("Cedole più valore del titolo, lordo d'imposta; titoli valutati al rendimento della loro vita residua.") if formato == "articolo" else None
     g.piede(fig, fonte, nota_p)
     g.salva(fig, str(OUT / f"esito-per-mese-acquisto_{formato}"))
 

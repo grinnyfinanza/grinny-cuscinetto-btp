@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-27T17:27:25.578507</dc:date>
+    <dc:date>2026-10-29T04:00:32.717465</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -70,7 +70,7 @@ L 128.692683 407.127273
 L 128.692683 358.922351 
 L 82.8 358.922351 
 z
-" clip-path="url(#p48e8b580dc)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#paef8600f6c)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 82.8 329.377398 
@@ -78,7 +78,7 @@ L 143.678049 329.377398
 L 143.678049 281.172476 
 L 82.8 281.172476 
 z
-" clip-path="url(#p48e8b580dc)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#paef8600f6c)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 82.8 251.627524 
@@ -86,7 +86,7 @@ L 248.57561 251.627524
 L 248.57561 203.422602 
 L 82.8 203.422602 
 z
-" clip-path="url(#p48e8b580dc)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#paef8600f6c)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 82.8 173.877649 
@@ -94,7 +94,7 @@ L 270.117073 173.877649
 L 270.117073 125.672727 
 L 82.8 125.672727 
 z
-" clip-path="url(#p48e8b580dc)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#paef8600f6c)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 82.8 421.2 
@@ -115,13 +115,13 @@ L 82.8 111.6
    </g>
   </g>
   <g id="text_9">
-   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(100.686172 27.602531)">I titoli a 3 anni reggono</text>
-   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(66.966406 51.674)">un rialzo dei tassi almeno triplo</text>
+   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(74.04 29.770031)">Sui titoli a 3 anni il cuscinetto</text>
+   <text style="font-weight: 600; font-size: 17px; font-family: 'Lora Grinny SemiBold'; fill: #17323d" transform="translate(84.141719 51.725797)">è almeno tre volte più largo</text>
   </g>
   <g id="text_10">
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(94.630703 68.435923)">Di quanto può salire il rendimento in un anno</text>
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(97.920078 83.383394)">prima che chi compra il 30/09/2026 perda,</text>
-   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(103.048594 98.592856)">in punti base (100 = 1 punto percentuale)</text>
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(107.356992 68.435923)">Di quanto può aumentare il rendimento</text>
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(91.440781 83.334409)">nei dodici mesi successivi prima della perdita,</text>
+   <text style="font-size: 9.5px; font-family: 'Inter'; fill: #46585e" transform="translate(110.466016 98.326411)">acquisto al 30/09/2026, in punti base</text>
   </g>
   <g id="text_11">
    <text style="font-size: 7.5px; font-family: 'Inter'; fill: #6b7b80" transform="translate(57.6 460.301609)">Fonte: elaborazione Grinny Finanza su dati Banca</text>
@@ -132,7 +132,7 @@ L 82.8 111.6
   </g>
  </g>
  <defs>
-  <clipPath id="p48e8b580dc">
+  <clipPath id="paef8600f6c">
    <rect x="82.8" y="111.6" width="230.4" height="309.6"/>
   </clipPath>
  </defs>

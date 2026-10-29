@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-27T17:27:24.072089</dc:date>
+    <dc:date>2026-10-29T04:00:31.669977</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -70,7 +70,7 @@ L 135.72 164.454545
 L 135.72 148.199397 
 L 82.8 148.199397 
 z
-" clip-path="url(#pd404ca10cb)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p4ba393b256)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 82.8 138.236565 
@@ -78,7 +78,7 @@ L 153 138.236565
 L 153 121.981416 
 L 82.8 121.981416 
 z
-" clip-path="url(#pd404ca10cb)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p4ba393b256)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 82.8 112.018584 
@@ -86,7 +86,7 @@ L 273.96 112.018584
 L 273.96 95.763435 
 L 82.8 95.763435 
 z
-" clip-path="url(#pd404ca10cb)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p4ba393b256)" style="fill: #4f63d6; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 82.8 85.800603 
@@ -94,7 +94,7 @@ L 298.8 85.800603
 L 298.8 69.545455 
 L 82.8 69.545455 
 z
-" clip-path="url(#pd404ca10cb)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p4ba393b256)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 82.8 169.2 
@@ -115,10 +115,10 @@ L 82.8 64.8
    </g>
   </g>
   <g id="text_9">
-   <text style="font-weight: 600; font-size: 15.5px; font-family: 'Lora Grinny SemiBold'; text-anchor: middle; fill: #17323d" x="216" y="26.183484" transform="rotate(-0 216 26.183484)">I titoli a 3 anni reggono un rialzo dei tassi almeno triplo</text>
+   <text style="font-weight: 600; font-size: 15.5px; font-family: 'Lora Grinny SemiBold'; text-anchor: middle; fill: #17323d" x="216" y="26.354227" transform="rotate(-0 216 26.354227)">A 3 anni il cuscinetto è almeno tre volte più largo</text>
   </g>
   <g id="text_10">
-   <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="216" y="46.013472" transform="rotate(-0 216 46.013472)">Rialzo dei tassi sopportabile in un anno, punti base (100 = 1 punto), al 30/09/2026</text>
+   <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: middle; fill: #46585e" x="216" y="45.775073" transform="rotate(-0 216 45.775073)">Aumento del rendimento sopportabile in dodici mesi, in punti base, acquisto al 30/09/2026</text>
   </g>
   <g id="text_11">
    <text style="font-size: 6.5px; font-family: 'Inter'; text-anchor: start; fill: #6b7b80" x="57.6" y="213.930984" transform="rotate(-0 57.6 213.930984)">Fonte: elab. Grinny Finanza su Banca d'Italia e Bundesbank, 25/10/2026.</text>
@@ -128,7 +128,7 @@ L 82.8 64.8
   </g>
  </g>
  <defs>
-  <clipPath id="pd404ca10cb">
+  <clipPath id="p4ba393b256">
    <rect x="82.8" y="64.8" width="259.2" height="104.4"/>
   </clipPath>
  </defs>

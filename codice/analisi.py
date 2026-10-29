@@ -27,7 +27,9 @@ def carica():
     bund = pd.read_csv(DATI / "bbk_BBSIS_bund_rendimenti_par_giornalieri.csv", parse_dates=["data"]).set_index("data")
     bce = pd.read_csv(DATI / "bce_IRS_decennali_IT_DE_mensili.csv")
     bce["mese"] = pd.PeriodIndex(bce["mese"], freq="M")
-    hicp = pd.read_csv(DATI / "bce_ICP_hicp_IT_DE_mensili.csv")
+    # Inflazione: Eurostat, prc_hicp_minr (nuova serie ECOICOP ver.2, indice 2025=100), fino a settembre 2026
+    hicp = pd.read_csv(DATI / "eurostat_prc_hicp_minr_IT_DE.csv").rename(
+        columns={"hicp_it_i25": "hicp_it", "hicp_de_i25": "hicp_de"})
     hicp["mese"] = pd.PeriodIndex(hicp["mese"], freq="M")
     return btp, bund, bce.set_index("mese"), hicp.set_index("mese")
 
@@ -224,12 +226,14 @@ def main():
         "inflazione_cumulata": round(float(inf_cum * 100), 1),
         "reale_a_quella_data": round(float(((1 + nom_fine) / (1 + inf_cum) - 1) * 100), 1),
     }
-    # Esteso dopo il piano (dichiarato): esito a oggi per ogni mese d'acquisto dal 2019, BTP e Bund,
+    # Stessa data per tutti (30/9/2026, ultima data Banca d'Italia): anche il Bund si valuta lì
+    data_comune = min(tab["BTP 10 anni"].index.max(), tab["Bund 10 anni"].index.max())
+    # Esteso dopo il piano (dichiarato): esito alla data comune per ogni mese d'acquisto dal 2019, BTP e Bund,
     # per non dipendere dalla sola data del minimo.
     curva_bund = bund[["bund_2a", "bund_3a", "bund_5a", "bund_10a"]].rename(
         columns={"bund_2a": 2, "bund_3a": 3, "bund_5a": 5, "bund_10a": 10})
-    e_btp = esito_a_oggi(curva_interpolata(btp), btp["btp_10a"], 10, 2, "2019-01-01")
-    e_bund = esito_a_oggi(curva_bund, bund["bund_10a"], 10, 1, "2019-01-01")
+    e_btp = esito_a_oggi(curva_interpolata(btp).loc[:data_comune], btp["btp_10a"].loc[:data_comune], 10, 2, "2019-01-01")
+    e_bund = esito_a_oggi(curva_bund.loc[:data_comune], bund["bund_10a"].loc[:data_comune], 10, 1, "2019-01-01")
     e_btp.to_csv(RIS / "esito_a_oggi_btp10.csv", float_format="%.4f")
     e_bund.to_csv(RIS / "esito_a_oggi_bund10.csv", float_format="%.4f")
 
@@ -243,8 +247,6 @@ def main():
                 "mag_2022": {k: round(float(v), 2) for k, v in e.loc["2022-05"].iloc[0].items()}}
     sintesi["esito_a_oggi"] = {"BTP 10 anni": riassumi(e_btp), "Bund 10 anni": riassumi(e_bund)}
 
-    # Stessa data per tutti (30/9/2026, ultima data Banca d'Italia)
-    data_comune = min(tab["BTP 10 anni"].index.max(), tab["Bund 10 anni"].index.max())
     sintesi["alla_data_comune"] = {"data": str(data_comune.date())}
     for nome, df in tab.items():
         r = df.loc[:data_comune].iloc[-1]
@@ -277,9 +279,45 @@ def main():
                               "rend_cum_peggiore": round(float(cet22.rend_cum.min()), 1),
                               "data_peggiore": str(cet22.rend_cum.idxmin().date()),
                               "rend_cum_ultimo": round(float(cet22.rend_cum.iloc[-1]), 1),
-                              "nominale_dic_2025": round(float(nom22 * 100), 1),
-                              "inflazione_mag22_dic25": round(float(inf22 * 100), 1),
-                              "reale_dic_2025": round(float(((1 + nom22) / (1 + inf22) - 1) * 100), 1)}
+                              "reale_fino_a": str(ultimo_mese), "data_valore_nominale": str(fine_r.date()),
+                              "nominale": round(float(nom22 * 100), 1),
+                              "inflazione_cumulata": round(float(inf22 * 100), 1),
+                              "reale": round(float(((1 + nom22) / (1 + inf22) - 1) * 100), 1)}
+
+    # Robustezza chiesta in revisione: il rolldown. Dopo un anno il decennale ha 9 anni di vita residua;
+    # invece del rendimento a 10 anni si usa quello a 9 anni, interpolato linearmente fra 5 e 10 anni.
+    def quota_con_rolldown(y10, y5, freq):
+        y9 = (y5 + (y10 - y5) * 4 / 5).dropna()
+        y9_1 = valore_a_un_anno(y9)
+        d = pd.DataFrame({"y0": y10.dropna(), "y1": y9_1}).dropna().loc[INIZIO:]
+        r = [rendimento_un_anno(a, b, 10, freq) for a, b in zip(d.y0, d.y1)]
+        return round(float((np.array(r) < 0).mean()), 3), int(len(d)), y9
+    q_btp, n_btp, y9_btp = quota_con_rolldown(btp["btp_10a"], btp["btp_5a"], 2)
+    q_bund, n_bund, _ = quota_con_rolldown(bund["bund_10a"], bund["bund_5a"], 1)
+    sintesi["robustezza_rolldown"] = {
+        "metodo": "rendimento dopo un anno alla scadenza residua di 9 anni, interpolato fra 5 e 10 anni",
+        "BTP 10 anni": {"quota_perdita_dal_1999": q_btp, "giorni": n_btp,
+                        "principale": round(sintesi["serie"]["BTP 10 anni"]["dal_1999"]["quota_perdita"], 3)},
+        "Bund 10 anni": {"quota_perdita_dal_1999": q_bund, "giorni": n_bund,
+                         "principale": round(sintesi["serie"]["Bund 10 anni"]["dal_1999"]["quota_perdita"], 3)},
+        "btp_9a_alla_data_comune": round(float(y9_btp.loc[data_comune]), 2),
+    }
+
+    # La scorciatoia di Nangle (rendimento / durata modificata fra un anno) contro il calcolo esatto, alla data comune
+    sc = {}
+    for nome, (col, serie, anni, freq) in {"BTP 10 anni": ("btp_10a", btp, 10, 2), "BTP 3 anni": ("btp_3a", btp, 3, 2),
+                                         "Bund 10 anni": ("bund_10a", bund, 10, 1), "Bund 3 anni": ("bund_3a", bund, 3, 1)}.items():
+        y = float(serie[col].loc[:data_comune].iloc[-1]); dm = durata_modificata(y, y, anni - 1, freq)
+        sc[nome] = {"durata_fra_un_anno": round(dm, 2), "scorciatoia_pb": round(100 * y / dm), "esatto_pb": sintesi["alla_data_comune"][nome]["margine_pb"]}
+    sintesi["scorciatoia_duration"] = sc
+
+    # Lo spread di pareggio dipende anche da come si muove il Bund (le due durate non coincidono)
+    sens = {}
+    for db in (-1.0, 0.0, 1.0, 2.0):
+        rdb = rendimento_un_anno(yd, yd + db, 10, 1)
+        ds = brentq(lambda d: rendimento_un_anno(yb, yb + db + d, 10, 2) - rdb, -5, 10)
+        sens[f"{int(db * 100):+d}"] = round(ds * 100)
+    sintesi["spread"]["allargamento_pareggio_pb_per_variazione_bund_pb"] = sens
 
     (RIS / "sintesi.json").write_text(json.dumps(sintesi, indent=2, ensure_ascii=False))
     print(json.dumps(sintesi, indent=2, ensure_ascii=False))
