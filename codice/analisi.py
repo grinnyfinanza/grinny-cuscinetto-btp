@@ -326,6 +326,28 @@ def main():
     lungo = max(b10["episodi"], key=lambda e: e["giorni"])
     b10["dal_1999"]["giorni_in_perdita"] = int(round(b10["dal_1999"]["quota_perdita"] * b10["dal_1999"]["giorni"]))
     b10["periodo_in_perdita_piu_lungo"] = lungo
+    # 2010 contro 2021: quanto della differenza di perdita viene dal punto di partenza?
+    # stesso rialzo del 2010-2011 applicato al decennale comprato il 12/10/2021
+    d10 = tab["BTP 10 anni"]
+    a0, a1 = d10.loc["2010-11-09", ["y0", "y1"]]; c0, c1 = d10.loc["2021-10-12", ["y0", "y1"]]
+    sintesi["confronto_2010_2021"] = {
+        "acquisto_2010_11_09": {"y0": round(float(a0), 2), "rialzo_pt": round(float(a1 - a0), 2),
+                                "rend_1a": round(float(d10.loc["2010-11-09", "rend_1a"]), 1)},
+        "acquisto_2021_10_12": {"y0": round(float(c0), 2), "rialzo_pt": round(float(c1 - c0), 2),
+                                "rend_1a": round(float(d10.loc["2021-10-12", "rend_1a"]), 1)},
+        "acquisto_2021_con_rialzo_2010": round(rendimento_un_anno(float(c0), float(c0 + a1 - a0), 10, 2), 1),
+    }
+    # la perdita a un anno peggiore di ogni serie, e la peggiore prima del 2021
+    for nome, d in tab.items():
+        r = d["rend_1a"].dropna()
+        prima = r.loc[:"2020-12-31"]
+        sintesi["serie"][nome]["peggiore_1a"] = {
+            "data_acquisto": str(r.idxmin().date()), "rend_1a": round(float(r.min()), 1),
+            "y0": round(float(d.loc[r.idxmin(), "y0"]), 2), "y1": round(float(d.loc[r.idxmin(), "y1"]), 2),
+            "margine_pb": round(float(d.loc[r.idxmin(), "margine_pb"])), "serie_dal": str(r.index.min().date()),
+            "peggiore_prima_del_2021": {"data_acquisto": str(prima.idxmin().date()), "rend_1a": round(float(prima.min()), 1),
+                                        "y0": round(float(d.loc[prima.idxmin(), "y0"]), 2),
+                                        "y1": round(float(d.loc[prima.idxmin(), "y1"]), 2)}}
 
     (RIS / "sintesi.json").write_text(json.dumps(sintesi, indent=2, ensure_ascii=False))
     print(json.dumps(sintesi, indent=2, ensure_ascii=False))

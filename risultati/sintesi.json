@@ -263,6 +263,20 @@
         "rend_1a_peggiore": -27.1,
         "y0_min": 0.44,
         "y0_max": 3.49
+      },
+      "peggiore_1a": {
+        "data_acquisto": "2021-10-12",
+        "rend_1a": -27.1,
+        "y0": 0.95,
+        "y1": 4.84,
+        "margine_pb": 11,
+        "serie_dal": "1991-03-05",
+        "peggiore_prima_del_2021": {
+          "data_acquisto": "2010-11-09",
+          "rend_1a": -17.9,
+          "y0": 4.03,
+          "y1": 7.42
+        }
       }
     },
     "BTP 3 anni": {
@@ -475,7 +489,21 @@
           "y0_max": 2.33
         }
       ],
-      "diff_soglia_esatta_euristica_pb_media": 2.9
+      "diff_soglia_esatta_euristica_pb_media": 2.9,
+      "peggiore_1a": {
+        "data_acquisto": "2021-09-28",
+        "rend_1a": -7.8,
+        "y0": -0.2,
+        "y1": 3.77,
+        "margine_pb": -10,
+        "serie_dal": "1992-10-12",
+        "peggiore_prima_del_2021": {
+          "data_acquisto": "2010-11-09",
+          "rend_1a": -6.4,
+          "y0": 2.55,
+          "y1": 7.46
+        }
+      }
     },
     "Bund 10 anni": {
       "ultima_data": "2026-10-23",
@@ -767,7 +795,21 @@
           "y0_max": 2.79
         }
       ],
-      "diff_soglia_esatta_euristica_pb_media": 0.8
+      "diff_soglia_esatta_euristica_pb_media": 0.8,
+      "peggiore_1a": {
+        "data_acquisto": "2022-03-02",
+        "rend_1a": -22.5,
+        "y0": -0.08,
+        "y1": 2.77,
+        "margine_pb": -1,
+        "serie_dal": "1997-08-07",
+        "peggiore_prima_del_2021": {
+          "data_acquisto": "1999-01-29",
+          "rend_1a": -9.3,
+          "y0": 3.77,
+          "y1": 5.66
+        }
+      }
     },
     "Bund 3 anni": {
       "ultima_data": "2026-10-23",
@@ -971,7 +1013,21 @@
           "y0_max": 2.01
         }
       ],
-      "diff_soglia_esatta_euristica_pb_media": 2.5
+      "diff_soglia_esatta_euristica_pb_media": 2.5,
+      "peggiore_1a": {
+        "data_acquisto": "2022-03-07",
+        "rend_1a": -7.8,
+        "y0": -0.67,
+        "y1": 3.05,
+        "margine_pb": -33,
+        "serie_dal": "1997-08-07",
+        "peggiore_prima_del_2021": {
+          "data_acquisto": "2017-02-27",
+          "rend_1a": -1.9,
+          "y0": -0.89,
+          "y1": -0.37
+        }
+      }
     }
   },
   "confronto_ultimo_giorno_comune": {
@@ -1124,5 +1180,18 @@
       "scorciatoia_pb": 173,
       "esatto_pb": 177
     }
+  },
+  "confronto_2010_2021": {
+    "acquisto_2010_11_09": {
+      "y0": 4.03,
+      "rialzo_pt": 3.39,
+      "rend_1a": -17.9
+    },
+    "acquisto_2021_10_12": {
+      "y0": 0.95,
+      "rialzo_pt": 3.88,
+      "rend_1a": -27.1
+    },
+    "acquisto_2021_con_rialzo_2010": -24.1
   }
 }
