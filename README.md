@@ -9,7 +9,7 @@ Spunto: Toby Nangle, "A bond is like a party balloon", FT Alphaville, ottobre 20
 | Cartella | Cosa c'è |
 |---|---|
 | `dati/` | I dati grezzi come scaricati dalle banche dati ufficiali (vedi sotto) |
-| `codice/` | `obbligazioni.py` (prezzi e soglie), `analisi.py` (tutti i conti), `grafici.py` (grafici), `esempio_fuori_pari.py` (titoli comprati sopra o sotto 100), `grinny_style.py` (stile grafico) |
+| `codice/` | `obbligazioni.py` (prezzi e soglie), `analisi.py` (tutti i conti), `grafici.py` (grafici), `esempio_fuori_pari.py` (titoli comprati sopra o sotto 100), `esempio_10000_euro.py` (l'esempio in euro dell'articolo), `grinny_style.py` (stile grafico, con il logo `grinny-logo-originale.jpg`) |
 | `risultati/` | Le tabelle prodotte dal codice: soglie giornaliere, esiti per mese d'acquisto, `sintesi.json` con tutti i numeri citati |
 | `grafici/` | I grafici in tre formati (articolo, social, LinkedIn), PNG e SVG, e i testi alternativi |
 | `PIANO.md` | Il piano dell'analisi, scritto prima di guardare i risultati |
@@ -21,6 +21,7 @@ pip install -r requirements.txt
 python codice/analisi.py                        # legge dati/, scrive risultati/
 python codice/grafici.py                        # scrive grafici/ (tre formati per grafico)
 python codice/esempio_fuori_pari.py             # esempio di titoli con cedole diverse
+python codice/esempio_10000_euro.py             # 10.000 euro nel BTP del 30/9/2026, tre scenari a un anno
 ```
 
 Per i grafici servono i font Inter e Lora; senza, il modulo di stile ripiega su font simili.

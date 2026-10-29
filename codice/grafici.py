@@ -48,9 +48,10 @@ def grafico_soglia(formato):
     d = tab[tab.serie == "BTP 10 anni"]
     ultimo = d.dropna(subset=["y0"]).iloc[-1]; t_u = d.dropna(subset=["y0"]).index[-1]
     assert round(float(ultimo.soglia), 2) == S["serie"]["BTP 10 anni"]["soglia_esatta"]
-    assert g.num(ultimo.soglia, 1, True) == "5,2%"  # il fatto del titolo
+    assert g.num(ultimo.soglia, 1, True) == "5,2%"  # la risposta, scritta sul grafico
 
-    fig, ax = g.figura(formato)
+    # titolo a domanda scelto dall'autore (29/10/2026): su due righe in tutti i formati
+    fig, ax = g.figura(formato, spazio_titolo=0.30 if formato != "linkedin" else 0.0)
     x0, x1 = pd.Timestamp(INIZIO_SOGLIA), pd.Timestamp("2027-12-31")
     ymax = 9
     ax.set_xlim(x0, x1); ax.set_ylim(0, ymax)
@@ -88,9 +89,7 @@ def grafico_soglia(formato):
         else:
             g.nota(ax, pd.Timestamp("2014-06-01"), 8.2, "Ogni linea collega\nil rendimento iniziale\nalla soglia a 12 mesi")
 
-    titolo = {"articolo": "Il BTP decennale del 30 settembre perde solo oltre il 5,23%",
-              "social": "Il BTP del 30 settembre perde solo oltre il 5,23%",
-              "linkedin": "Il BTP decennale del 30 settembre\nchiude l'anno in perdita oltre il 5,23%"}[formato]
+    titolo = "Quanto devono salire i rendimenti\nperché il BTP chiuda l'anno in perdita?"
     sotto = {"articolo": "Rendimento del BTP decennale e soglia di pareggio a dodici mesi, in %",
              "social": "Rendimento del BTP decennale e soglia di pareggio a dodici mesi, in %",
              "linkedin": "Rendimento del BTP decennale\ne soglia di pareggio a dodici mesi, in %"}[formato]
@@ -124,7 +123,7 @@ def grafico_margini(formato):
              "social": f"Aumento del rendimento sopportabile in dodici mesi, in punti base, acquisto al {data_it(c['data'])}",
              "linkedin": f"Di quanto può aumentare il rendimento\nnei dodici mesi successivi prima della perdita,\nacquisto al {data_it(c['data'])}, in punti base"}[formato]
     g.intestazione(fig, titolo, sotto)
-    fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200) e Deutsche Bundesbank (BBSIS), estratti il {ESTRAZIONE}.",
+    fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200) e Bundesbank (BBSIS), estratti il {ESTRAZIONE}.",
              "social": f"Fonte: elab. Grinny Finanza su Banca d'Italia e Bundesbank, {ESTRAZIONE}.",
              "linkedin": f"Fonte: elaborazione Grinny Finanza su dati Banca\nd'Italia e Bundesbank, estratti il {ESTRAZIONE}."}[formato]
     nota_p = ("Titoli sintetici comprati alla pari. BTP: cedola semestrale; Bund: cedola annuale. Lordo d'imposta.") if formato == "articolo" else None

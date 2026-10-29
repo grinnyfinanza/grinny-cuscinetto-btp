@@ -1,0 +1,9 @@
+titolo,scenario,rendimento_acquisto,rendimento_dopo_un_anno,valore_titolo_euro,cedole_euro,saldo_euro,rendimento_anno_pct
+BTP 10 anni,invariato,4.5888,4.5888,10000,459,459,4.59
+BTP 10 anni,soglia di pareggio,4.5888,5.2346,9541,459,0,-0.0
+BTP 10 anni,+1 punto,4.5888,5.5888,9300,459,-241,-2.41
+BTP 10 anni,6%,4.5888,6.0,9030,459,-512,-5.12
+BTP 3 anni,invariato,3.7276,3.7276,10000,373,373,3.73
+BTP 3 anni,soglia di pareggio,3.7276,5.7267,9627,373,0,0.0
+BTP 3 anni,+1 punto,3.7276,4.7276,9811,373,184,1.84
+BTP 3 anni,6%,3.7276,6.0,9578,373,-50,-0.5

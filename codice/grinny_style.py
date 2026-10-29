@@ -114,9 +114,14 @@ def num(x, dec=1, pct=False, segno=False):
     return s.replace("-", "−") + ("%" if pct else "")
 
 
-def figura(formato="articolo"):
+def figura(formato="articolo", spazio_titolo=0.0):
+    """spazio_titolo: pollici in più in alto, per un titolo su due righe nei formati che ne hanno una.
+    Nell'articolo e su LinkedIn la figura si allunga; nel social (1200 x 630 fisso) si stringe il grafico."""
     applica(formato)
     w, h, dpi = FORMATI[formato]; l, r, t, b = MARGINI[formato]
+    t += spazio_titolo
+    if formato != "social":
+        h += spazio_titolo
     fig = plt.figure(figsize=(w, h), dpi=100)
     fig._grinny = formato
     ax = fig.add_axes([l / w, b / h, (w - l - r) / w, (h - t - b) / h])

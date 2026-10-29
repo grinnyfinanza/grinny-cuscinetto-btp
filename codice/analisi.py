@@ -318,6 +318,14 @@ def main():
         ds = brentq(lambda d: rendimento_un_anno(yb, yb + db + d, 10, 2) - rdb, -5, 10)
         sens[f"{int(db * 100):+d}"] = round(ds * 100)
     sintesi["spread"]["allargamento_pareggio_pb_per_variazione_bund_pb"] = sens
+    # medie annue dello spread decennale (Banca d'Italia meno Bundesbank), citate nel testo
+    sp = ((btp["btp_10a"] - bund["bund_10a"]) * 100).dropna()
+    sintesi["spread"]["media_annua_pb"] = {str(a): round(float(sp.loc[str(a)].mean())) for a in range(2022, 2027)}
+    # giornate d'acquisto in perdita e periodo continuo più lungo (BTP decennale, dal 1999)
+    b10 = sintesi["serie"]["BTP 10 anni"]
+    lungo = max(b10["episodi"], key=lambda e: e["giorni"])
+    b10["dal_1999"]["giorni_in_perdita"] = int(round(b10["dal_1999"]["quota_perdita"] * b10["dal_1999"]["giorni"]))
+    b10["periodo_in_perdita_piu_lungo"] = lungo
 
     (RIS / "sintesi.json").write_text(json.dumps(sintesi, indent=2, ensure_ascii=False))
     print(json.dumps(sintesi, indent=2, ensure_ascii=False))
