@@ -205,9 +205,44 @@ def grafico_esito(formato):
     g.salva(fig, str(OUT / f"esito-per-mese-acquisto_{formato}"))
 
 
+# --------------------------------------------------------------------------------------
+# 4. La cedola conta poco, il rendimento di partenza molto
+# --------------------------------------------------------------------------------------
+def grafico_cedole(formato):
+    fp = pd.read_csv(RIS / "esempio_fuori_pari.csv")
+    d10 = tab[tab.serie == "BTP 10 anni"]
+    minimo = d10.loc["2021-02-12"]
+    assert round(float(minimo.y0), 2) == 0.44
+    nomi, valori = [], []
+    for _, r in fp.iterrows():
+        ced = g.num(r.cedola, 2 if abs(r.cedola - round(r.cedola)) > 1e-6 else 0, True)
+        nomi.append(f"Cedola {ced}, prezzo {r.prezzo:.0f}")
+        valori.append(float(r.cuscinetto_pb))
+    feb21 = "Febbraio 2021, allo 0,44%"
+    nomi.append(feb21); valori.append(round(float(minimo.margine_pb)))
+    # il fatto del titolo: fra le cedole ~15 punti base, fra 2021 e 2026 ~60
+    assert max(valori[:3]) - min(valori[:3]) <= 20 and valori[1] - valori[3] >= 50
+    fig, ax = g.figura(formato, spazio_titolo=0.15 if formato == "linkedin" else 0.0)
+    g.barre_orizzontali(ax, nomi, valori, evidenzia=nomi[:3], dec=0, pct=False)
+    titolo = {"articolo": "Conta più il rendimento di partenza che la cedola",
+              "social": "Conta più il rendimento di partenza che la cedola",
+              "linkedin": "Conta più il rendimento\ndi partenza che la cedola"}[formato]
+    sotto = {"articolo": "Di quanto può salire il rendimento in dodici mesi prima della perdita, in punti base.\nTre BTP decennali al 4,59% (30/9/2026) con cedole diverse e, in basso, uno comprato nel febbraio 2021",
+             "social": "Rialzo sopportabile in dodici mesi, in punti base: tre decennali al 4,59%\ncon cedole diverse e, in basso, uno comprato nel febbraio 2021",
+             "linkedin": "Di quanto può salire il rendimento in dodici mesi\nprima della perdita, in punti base: tre decennali\nal 4,59% con cedole diverse e uno del febbraio 2021"}[formato]
+    g.intestazione(fig, titolo, sotto)
+    fonte = {"articolo": f"Fonte: elaborazione Grinny Finanza su dati Banca d'Italia (BMK0200), estratti il {ESTRAZIONE}.",
+             "social": f"Fonte: elab. Grinny Finanza su Banca d'Italia, {ESTRAZIONE}.",
+             "linkedin": f"Fonte: elaborazione Grinny Finanza su dati\nBanca d'Italia (BMK0200), estratti il {ESTRAZIONE}."}[formato]
+    nota_p = ("Titoli ipotetici a 10 anni, cedola semestrale, prezzo per 100 di valore nominale. Lordo d'imposta.") if formato == "articolo" else None
+    g.piede(fig, fonte, nota_p)
+    g.salva(fig, str(OUT / f"cedola-o-rendimento_{formato}"))
+
+
 if __name__ == "__main__":
     for f in ("articolo", "social", "linkedin"):
         grafico_soglia(f)
         grafico_margini(f)
         grafico_esito(f)
+        grafico_cedole(f)
     print("ok")

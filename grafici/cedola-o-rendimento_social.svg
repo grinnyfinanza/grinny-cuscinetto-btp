@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="226.8pt" viewBox="0 0 432 226.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-01T08:37:54.825567</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 226.8 
+L 432 226.8 
+L 432 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 153 169.2 
+L 342 169.2 
+L 342 64.8 
+L 153 64.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #46585e" x="150" y="160.444159" transform="rotate(-0 150 160.444159)">Febbraio 2021, allo 0,44%</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="150" y="134.226178" transform="rotate(-0 150 134.226178)">Cedola 1%, prezzo 71</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="150" y="108.008197" transform="rotate(-0 150 108.008197)">Cedola 4,59%, prezzo 100</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: end; fill: #17323d" x="150" y="81.790216" transform="rotate(-0 150 81.790216)">Cedola 7%, prezzo 119</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 153 164.454545 
+L 163.465116 164.454545 
+L 163.465116 148.199397 
+L 153 148.199397 
+z
+" clip-path="url(#p3d151b02c4)" style="fill: #b9c7c0; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 153 138.236565 
+L 268.116279 138.236565 
+L 268.116279 121.981416 
+L 153 121.981416 
+z
+" clip-path="url(#p3d151b02c4)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 153 112.018584 
+L 289.046512 112.018584 
+L 289.046512 95.763435 
+L 153 95.763435 
+z
+" clip-path="url(#p3d151b02c4)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 153 85.800603 
+L 299.511628 85.800603 
+L 299.511628 69.545455 
+L 153 69.545455 
+z
+" clip-path="url(#p3d151b02c4)" style="fill: #d9534a; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 153 169.2 
+L 153 64.8 
+" style="fill: none; stroke: #46585e; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #46585e" x="165.662791" y="159.419012" transform="rotate(-0 165.662791 159.419012)">5</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="270.313953" y="133.201031" transform="rotate(-0 270.313953 133.201031)">55</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="291.244186" y="106.983051" transform="rotate(-0 291.244186 106.983051)">65</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 8.5px; font-family: 'Inter'; text-anchor: start; fill: #17323d" x="301.709302" y="80.76507" transform="rotate(-0 301.709302 80.76507)">70</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g clip-path="url(#pe4b903488c)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADkAAAAkCAYAAAAzUJLAAAAL2UlEQVR4nN2Za5Ac1XXHf7e759E9j519SNpdaYUkDKIwloIRJFQgNmBQycjBJkBshzIpB2O7CrliO8GGouIY24QYKobYcUwJlyM7dkLZOFEoQ5kYE1FGRpaMeCzosXqsHitppdmdV093Tz/uzYeemZ3ZXUH4gGP5VHXNdN/T957/Oeeec+5pIaVUAAqFQAAgRPz7u0IaQKVa4cSpE3i+C4BSag6jUvHzzutMIU0pRd21cT2H4nSRMArjkTkgFApFxa5QLBcJwvCMAaoJIejJ9SCEoBE0mKpMoZSkU/wWGMd1KFVKVO0q0y2+NwA6x/r/D3rRADJWllw2D4Bdt6nWa20BWxTJkEqtjFISAbiuQ92tx4OnEVwpRRiGlKslHNd561C8AWmtINOb78NKZUDAdKWM1/DaggJU7Rp+4IMQIAQSSalaIYwi1Hwom5abKk9RrEwxOX0Sr+HNz/sWk9b6o2sa/b39GHoCqUKK5Zn96Qc+NbuGAlKJFIVcofm8QaVWBuYGKwW4DYe6F1s7ikKmylNIKX/jMDWIU4YQgmQiSV9PASEEvt9gujJNJCWlaolIhQih0ZvvpZDtwUyZCAG1eq1tddRMFJZKUq6WkUgEAiHA810qdqVt5d8oyE7KWjnymRxCCOqOTbFUxPUcUJA1LdLpNEKLwWpCQ8qIcrXUDFaK1gatuw4Nv4FQgnwmRyqRRiCo1io0/Eask1lBqTNNMU/KejNXJxmzQU5Pldi17wB6QmPRgj5ct44SCsMwMPQkO3a+TCaTYeXZy8ll8hw9cYxdY+NctEpjcGARABMnJglVg0hKDh+dZPniBAsX9nPk+FF27xsjn53gsosvwdB19o8fQik4Z8UyhADX9XBcl/6+XgD2HjhItWaTsUyiKMIPQ1adtxI/CNiz/yDnLF9GNmNx7MQk40cmWDI8yNLFw69vSQncfd+DuG5AwjDalVAhVyCdSvO1jZvY8dIraFqcejJWhld2jWE7NmEYsnv/Ae68935sx0FogiiSTEyexEpbWGaWbzzyA3bvP4jX8BBCcPxkkclTp0AIgiDgwY3/wjO/3IZSiiiKGN0zxue+dD9SSvK5LM9t30mxVMIwdF4b2xfna2Bs/BB3/d0D/zd3taw0CUOnv1AgaaSRSpAxM2StLMlkglQqQSZjIYTA0A0W9S9k8dACNE0wNn6Az91zH67ngQJDT/CHa9Zwqlhk5yuv8ty2F1Ay4t2XXkzdrRNGIQv6+xjo70fKiB/8x+M8/tTTpJIJynaFU6Ui7/qDNZx3znJ+/MRTDA8O8tE/vZ6eXI5kIsllF1/E1u07ePHlUX70+BOsveJdjAwPvQHIZskaRZLR1/bw2H/9lKyZY6B3ACG0JotobruYOWNlSCVS2HWPL3/tWwwtGuC9V12OEIKclcUyTZaOLCGVSrJl63be+54rKOSyRDKgaleadZTiZ89u5dvf/yF/89kNmKkkrucSyRA/9PjUx27hf7Zu4/kXXiRjWZjpNACLhwZjEIkEr+we40/Wr2W+snuOJVGg6RrnrzyXa9dehZlKx4CaL0s1E1wQAoFAExobv/dDvIbHJ//iw6TSKXRdJ5+JC4yVZ69gdPdexg4c5Ib16zBNCwCv4WE7Ni+O7uLeB7/JHRtuY83qt+P6frOagiCM6CtkufXPbuKBf3qY6XK5Laqh6yxbOsLmJ59i9fnncfZZS2OZZgHtBqkgkhIpY+0uHOhn644d1F0XFEgZ75MgjJr8CqUkv/jVC+zdP85f3/5RchkLx/Uw0xaGYTStbeI1fC5552pGhofIZ3IYuoFUkqlymfu/uZGbb/wA6668HLvuUKvboBQJw2Dv/nH2HDjEH126hoH+AR7+7r8Tyagt8oqlI4ztH+dDH1iPrmnNk1Q3yjnRtVqzufmG91Ot2bzw0ii+H5BKJgGw63WuefflDPQWiKIIXdep1GpccuFqbrv5g+TzaWqOTTqVImjMCCIQrL/mKq687FI0TQM0erI9FMtTKBnxl7f9OR+8bj1KwWTxFAINhEZfoZ/BRQvZ8eIodt3hfWuvxK45BEGIntIBMNNp7v7M7SwbWTLHKdvrq46kMvO3M8/MdnJ1mufgei61epWMlSVjWjG8pu/MrYgUlWqJuucg0Mhn84RRiOPWEUJQyPdipkz8oMFUaYpIRiQSSQZ6B9A1vUOGjnkF7TPxaUHOHK/EaWrMWZPOS2peBcxHURQxVS4SyghNaHEIkhIrZVLo6W3PU6vXqNhlUJDL5OjJ9cxZI9bl/Osa83CilCIIQ/aPH8ZxHXShMbJkMX2Fnlg4qRg/coRypcaKpUvoyec4MH4ITddZvnQEIWBqusTBoxMs7O9jZHgIIQSO67Jv/BCLBwfp7y2g6zp+IJFKYiQ0lFIcnyySSWfI53rRNAiCkLrjkkwmaTQa1JwaoHH46HEAzj17eXM7nV6xc6KrUgrHdfniA//Ilq3bGFywgFK1yif+6i4q1VpbF6/t2cedX7kfhOC57b/m43fcTd112+4ZhCGfvvtLHD1+oj23rmtseW4bmog95WRxir/9+wep2XVAIYSgZrscOjqBECCl5Ps/3syPHn+SQq6ApmlIKanaVb732GY2PfpYc4+/PnVxtLz1p888y0uju7j5husYGlzIyJLFTEyewvHi9ogmBPl8FsOI98bXN27ipj++lgtWntueK2NZ6AmdfC7bBp5MJll21gi5XIZ63eWLDzzE+JFj5DI5cmaOQraHkeEhFg8tAqF4+he/5J+/868kjARJI9VOSVKFKCUxTZNEU4bW2TWcp2MxjxoUO0d3sWLZCJZpgoJqucKtH74R13G7OB3HYfOTTxEpxfuuuaoJJs6dqqm0zoAuEEil8IOQhx7ZxMSxE2z42C0YukEuk8VKW/G7SjG6e4x7/uHr3H7rLSxdHFcxWSuHmTIJo4jJU0W8RoMwkgCEUcSxU8eZODlBGAZdQOcBKejrLVB33bgLIAQXrrqAj9x0PcvPWtrFaZkm1627mmvfcyX3PvQtwjBCdKWp7pylmhp/dPNP+NmWZ7nvC59n4UBf125q1bN3fvmrXL9uLe9fdzVoM13EnnwvO1/ew+GjE1x04dt5be++piUlYRQQhD5u68B/epCw/uorKE5XOHjkGChFGEU88fNnqdTsGXGVQmg6lplmeNEC9o2PE4Rhc8GZ445UnXFasmvPGA9/99+4547PsHLFCsIw6kruQRDy1W88wspz3sbHP/IhNE3g+0F7vG47bHr0P7nxunW8c9VKXt2zm1K1gq5pGJoOCjzf68LTBbJVDr1t2Vl85fOfZsvz2/n51ud58ulnqNVszHQKiKsix3FZdf5Kfv3yqxw4dJgvfHZDexxganqa37vgfKZLZZqtXSoVG6UUd274BJf9/hr8IODwxHEOHZloW/nwxDEuufAd3PWpT2KZaY5MHOfYiZPUbJsoCtny/K9YtmSYi1e/AyE0jITOT/77GYIwJJlIooCG3+hy1+482bJThxXCMETXNHRdn8PTWRa0gosQYubwOmsM4tJQ0zrum2tpTZ7Z9615Zo+HUcCJk8cJwgBN0xlaOIzrOUxVptCFwcjQEgzdQAgxv7u2hNKEIJlItAF2CiuEQNMEWrN10rq6xjuetefUxJw1tI73Zt+L04wnjSR9hT6EEEQyZLpcRG+mk0hFNHy//c6c2rUb6Nzybs4nhHly8Ok+M8x+/mY/R8x2uqyZxc24VO0qrucihBZ7klQ0fK9ZWr4OyKYYb0qIt5oiGVGcLgKQy+ZIp9L09vTR8H28wMPxnHbeavWR4A1B/nZREATUPZtIKWqeTTqRJpfJkc/l8Us+UkbtQ70fNIhkhK7pZxbIVDJJb76Par1GEPp4vofve3HMiCNcXLWJuDjwgwAzpc8fXX9bqSVqJCPqbp2qXcX3G80Gylwa6F1AIdtzZllSiNgVdS1urWStLJ7nUrVrOA0XqSSdwbK1L88okEDXwVhDwzIzmGmLhu9TrVdw3DqhjIC4xalQZ5a7zkuKLmcNwoBavYbruZhmhr584XcAZAd1NzlUOw//L8dYNNpCpV4EAAAAAElFTkSuQmCC" id="imagea1bf89be7f" transform="scale(1 -1) translate(0 -25.92)" x="382.32" y="-196.56" width="41.04" height="25.92"/>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 600; font-size: 15.5px; font-family: 'Lora Grinny SemiBold'; text-anchor: middle; fill: #17323d" x="216" y="26.477742" transform="rotate(-0 216 26.477742)">Conta più il rendimento di partenza che la cedola</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8.5px; font-family: 'Inter'; fill: #46585e" transform="translate(73.225898 45.731245)">Rialzo sopportabile in dodici mesi, in punti base: tre decennali al 4,59%</text>
+   <text style="font-size: 8.5px; font-family: 'Inter'; fill: #46585e" transform="translate(88.662031 59.145142)">con cedole diverse e, in basso, uno comprato nel febbraio 2021</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 6.5px; font-family: 'Inter'; text-anchor: start; fill: #6b7b80" x="127.8" y="213.930984" transform="rotate(-0 127.8 213.930984)">Fonte: elab. Grinny Finanza su Banca d'Italia, 25/10/2026.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3d151b02c4">
+   <rect x="153" y="64.8" width="189" height="104.4"/>
+  </clipPath>
+  <clipPath id="pe4b903488c">
+   <rect x="382.298614" y="196.56" width="41.061386" height="25.92"/>
+  </clipPath>
+ </defs>
+</svg>
